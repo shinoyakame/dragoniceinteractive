@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href='shinoyakame_mascot.ico' rel='icon' type='image/x-icon' />
+    <meta content='https://shinoyakame.github.io/dragoniceinteractive/encyclopedia' property='og:url' />
+    <meta content='Dragon Ice Interactive Encyclopedia' property='og:title' />
+    <meta content="Collections of Dragon Ice Interactive" property='og:description' />
+    <meta content='img/back_cover.png' property='og:image' />
+    <title>
+        Dragon Ice Interactive Encyclopedia
+    </title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    <script src='./js/vue.min.js'></script>
+    <link rel="stylesheet" href='css/site.css' />
+    <link rel="stylesheet" href='css/loader.css' />
+</head>
+
+<body class="content-scroll">
+    <div id="vue-app" class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-none d-md-block" href="#">Character Encyclopedia</a>
+                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="storyDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false" href="#">{{selectedStoryText}}
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="storyDropdown">
+                                    <li v-for="(list, index) in storyList">
+                                        <a class="dropdown-item" v-on:click="updateStory(index)">{{list.storyName}}</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="teamDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false" href="#">{{selectedTeamText}}
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="teamDropdown">
+                                    <li v-for="(list, index) in storyList[selectedStory].teamList">
+                                        <a class="dropdown-item" v-on:click="updateTeam(index)">{{list.teamName}}</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="memberDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false" href="#">{{selectedMemberText}}
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="memberDropdown">
+                                    <li
+                                        v-for="(list, index) in storyList[selectedStory].teamList[selectedTeam].memberList">
+                                        <a class="dropdown-item"
+                                            v-on:click="updateMember(index)">{{list.characterName}}</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row" style="margin-bottom:10vh;">
+            <div class="col-xs-12 col-sm-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">
+                <div class="card" style="margin-top:1em;">
+                    <h5 class="card-header headertext" data-toggle="tooltip" v-bind:title="getCharacterNameTooltip()">{{ getCharacterName() }}</h5>
+                    <div class="card-body">
+                        <div class="btn-group mb-4" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn-dark active"
+                                v-on:click="changeLanguage('TH')">TH</button>
+                            <button type="button" class="btn btn-dark" v-on:click="changeLanguage('EN')">EN</button>
+                            <button type="button" class="btn btn-dark" v-on:click="changeLanguage('CN')">中文</button>
+                            <button type="button" class="btn btn-dark" v-on:click="changeLanguage('JP')">日本</button>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 mb-3">
+                                    <img v-bind:src="getThumbnailPath()" style="max-height:30vh;max-width: 100vw;"
+                                        class="img-thumbnail" v-on:error=""
+                                        data-bs-toggle="modal" data-bs-target="#thumbnailModal"/>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 text-start border py-3"
+                                data-toggle="tooltip" v-bind:title="getCharacterDescriptionTooltip()" v-html="getCharacterDescription()">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="carouselExampleIndicators" class="carousel slide bg-dark" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li v-for="index in carouselMax-1" data-target="#carouselExampleIndicators"
+                                v-bind:data-slide-to="index"></li>
+                        </ol>
+
+                        <div class="carousel-inner" style="height:70vh;">
+                            <div class="carousel-item active">
+                                <img v-bind:src="getImagePath(0)" class="d-block imp mx-auto" v-on:error=""
+                                data-bs-toggle="modal" data-bs-target="#imageModal" />
+                            </div>
+
+                            <div class="carousel-item" v-for="index in carouselMax-1">
+                                <img v-bind:src="getImagePath(index)" class="d-block imp mx-auto" v-on:error=""
+                                data-bs-toggle="modal" data-bs-target="#imageModal" />
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="loader-wrapper">
+                    <span class="text-light me-2">Loading... </span>
+                    <span class="loader"><span class="loader-inner"></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="navbar fixed-bottom navbar-dark bg-dark text-light">
+            <div class="container d-none d-md-block" style="text-align:center;">
+                <span class="mx-auto">Copyright © 2020 Shinoyakame (Rattanapol Teankachon), All right reserved.</span>
+            </div>
+        </div>
+        <div class="modal fade" id="thumbnailModal" tabindex="-1" aria-labelledby="thumbnailModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="thumbnailModalLabel">{{ getCharacterName() }}</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img v-bind:src="getThumbnailPath()" style="max-height:30vh;max-width: 100vw;"
+                    class="img-thumbnail" v-on:error="" v-on:click="showThumbnail()"/>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="imageModalLabel">{{ getCharacterName() }}</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img v-bind:src="getImagePath(0)" class="d-block imp mx-auto" v-on:error="" 
+                    v-on:click="showImage(0)"/>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    
+    <script src='./data/data.js'></script>
+    <script type="text/javascript">
+        $(window).on("load", function () {
+            $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
+</body>
+
+</html>
