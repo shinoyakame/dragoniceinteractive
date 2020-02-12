@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8" />
@@ -9,12 +9,11 @@
     <meta content='http://github.dragoniceinteractive.com/' property='og:url' />
     <meta content='Dragon Ice Interactive Encyclopedia' property='og:title' />
     <meta content="Collections of Dragon Ice Interactive" property='og:description' />
-    <meta
-        content='img/brown_background.png'
-        property='og:image' />
+    <meta content='img/blue_background.png' property='og:image' />
     <title>
         Dragon Ice Interactive Encyclopedia
     </title>
+    <script src='./js/vue.min.js'></script>
 </head>
 <style>
     :root {
@@ -22,7 +21,8 @@
         --header-bar-height: 50px;
         --cartoon-font: "Comic Sans MS", cursive, sans-serif;
         --formal-font: "Courier New", Courier, monospace;
-        --fantasy-font: "Lucida Sans Unicode", "Lucida Grande", sans-serif;;
+        --fantasy-font: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        ;
         --gradient-gray: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(233, 233, 233, 1) 100%);
         --info-left: 70px;
         --header-select-width: 14em;
@@ -59,21 +59,21 @@
 
     /*------Section: Homepage--------------*/
 
-    .hidden{
+    .hidden {
         visibility: hidden;
     }
 
-    .show{
+    .show {
         visibility: visible;
     }
 
-    .homepage{
+    .homepage {
         position: absolute;
         bottom: 0px;
         right: 0px;
     }
 
-    .headertext{
+    .headertext {
         font-size: 1.4em;
         text-align: center;
         font-weight: bold;
@@ -81,12 +81,12 @@
         font-family: var(--fantasy-font);
     }
 
-    div.homepage td{
+    div.homepage td {
         display: inline-block;
         color: cornflowerblue;
     }
 
-    div.homepage tr td:first-child{
+    div.homepage tr td:first-child {
         font-weight: bold;
         color: darkcyan;
     }
@@ -99,11 +99,11 @@
         display: flex;
         width: 100vw;
         height: calc(100vh - var(--header-bar-height));
-        overflow-y: auto;
+        overflow-y: hidden;
         top: var(--header-bar-height);
         left: 0px;
         font-family: var(--formal-font);
-        background: url('img/brown_background.png') no-repeat center;
+        background: url('img/blue_background.png') no-repeat center;
         background-size: cover;
     }
 
@@ -112,6 +112,7 @@
         padding: 1.5vw;
         display: flex;
         flex-direction: column;
+        overflow-y: hidden;
     }
 
     .card {
@@ -126,39 +127,61 @@
 </style>
 
 <body>
-    <div class="header-menu">
-    </div>
-    <div class="content-scroll">
-        <div class="content">
-            <div id="homepage" class="homepage show">
-                <div class="card">
-                    <div class="headertext">Contact Information</div>
-                    <hr/>
-                    <table cellspacing="0" cellpadding="4">
-                        <tr>
-                            <td>Created by :</td>
-                            <td>Shinoyakame (Rattanapol Teankachon)</td>
-                        </tr>
-                        <tr>
-                            <td>Dragon Ice Bubble Fanart by :</td>
-                            <td>NiceInde</td>
-                        </tr>
-                    </table>
-                    <br/>
-                    <table cellspacing="0" cellpadding="4">
-                        <tr>
-                            <td>Contact web developer :</td>
-                            <td><a href="https://www.facebook.com/para.yoshi">Rattanapol Teankachon</a></td>
-                        </tr>
-                        <tr>
-                            <td>Contact web background artist :</td>
-                            <td><a href="https://www.facebook.com/NiceInde050/">NiceInde050</a></td>
-                        </tr>
-                    </table>
+    <div id="vue-app">
+        <div class="header-menu">
+            <div style="width:100%">
+                <div style="float:left;padding-left:2em;">
+                    Animalwars Series Encyclopedia
+                </div>
+                <div style="position:absolute;top:0px;right:2em;">
+                    <audio autoplay controls loop>
+                        <source src="audio/aws_medley_2017.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div style="text-align:center">
+                    <select v-model="selectedTeamText" v-on:change="updateTeam(event.target.selectedIndex)">
+                        <option v-for="list in teamList">{{list.teamName}}</option>
+                    </select>
+                    <select v-model="selectedMemberText" v-on:change="updateMember(event.target.selectedIndex)">
+                        <option v-for="list in teamList[selectedTeam].memberList">{{list.characterName}}</option>
+                    </select>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="content-scroll">
+            <div style="background-color: black;opacity: 0.7;width:100%;height:100%;position: absolute;">
+            </div>
+            <div class="content">
+                <div>
+                    <img v-bind:src="getImagePath()" style="width:40vw;position: absolute;z-index:1;" v-on:error="getImagePathJPG(event)"/>
+                </div>
+                <div id="homepage" class="homepage show">
+                    <div class="card">
+                        <div class="headertext">
+                            {{ teamList[selectedTeam].memberList[selectedMember].characterName }} |
+                            {{ teamList[selectedTeam].memberList[selectedMember].characterNameTH }} |
+                            {{ teamList[selectedTeam].memberList[selectedMember].characterNameCN }}
+                        </div>
+                        <hr>
+                        <div style="width:50vw;height:20vh;overflow-y:auto;overflow-x:none;">
+                            {{teamList[selectedTeam].memberList[selectedMember].characterDescriptionEN}}
+                        </div>
+                        <hr>
+                        <div style="width:50vw;height:20vh;overflow-y:auto;overflow-x:none;">
+                            {{teamList[selectedTeam].memberList[selectedMember].characterDescriptionTH}}
+                        </div>
+                        <hr>
+                        <div style="width:50vw;height:20vh;overflow-y:auto;overflow-x:none;">
+                            {{teamList[selectedTeam].memberList[selectedMember].characterDescriptionCN}}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src='./data/data.js'></script>
 </body>
 
 </html>
