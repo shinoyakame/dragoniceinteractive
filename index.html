@@ -139,11 +139,14 @@
                     </audio>
                 </div>
                 <div style="text-align:center">
+                    <select v-model="selectedStoryText" v-on:change="updateStory(event.target.selectedIndex)">
+                        <option v-for="list in storyList">{{list.storyName}}</option>
+                    </select>
                     <select v-model="selectedTeamText" v-on:change="updateTeam(event.target.selectedIndex)">
-                        <option v-for="list in teamList">{{list.teamName}}</option>
+                        <option v-for="list in storyList[selectedStory].teamList">{{list.teamName}}</option>
                     </select>
                     <select v-model="selectedMemberText" v-on:change="updateMember(event.target.selectedIndex)">
-                        <option v-for="list in teamList[selectedTeam].memberList">{{list.characterName}}</option>
+                        <option v-for="list in storyList[selectedStory].teamList[selectedTeam].memberList">{{list.characterName}}</option>
                     </select>
                 </div>
                 
@@ -160,21 +163,21 @@
                 <div id="homepage" class="homepage show">
                     <div class="card">
                         <div class="headertext">
-                            {{ teamList[selectedTeam].memberList[selectedMember].characterName }} |
-                            {{ teamList[selectedTeam].memberList[selectedMember].characterNameTH }} |
-                            {{ teamList[selectedTeam].memberList[selectedMember].characterNameCN }}
+                            {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterName }} |
+                            {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterNameTH }} |
+                            {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterNameCN }}
                         </div>
                         <hr>
                         <div style="width:50vw;height:20vh;overflow-y:auto;overflow-x:none;">
-                            {{teamList[selectedTeam].memberList[selectedMember].characterDescriptionEN}}
+                            {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterDescriptionEN}}
                         </div>
                         <hr>
                         <div style="width:50vw;height:20vh;overflow-y:auto;overflow-x:none;">
-                            {{teamList[selectedTeam].memberList[selectedMember].characterDescriptionTH}}
+                            {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterDescriptionTH}}
                         </div>
                         <hr>
                         <div style="width:50vw;height:20vh;overflow-y:auto;overflow-x:none;">
-                            {{teamList[selectedTeam].memberList[selectedMember].characterDescriptionCN}}
+                            {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterDescriptionCN}}
                         </div>
                     </div>
                 </div>
