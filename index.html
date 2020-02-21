@@ -55,22 +55,31 @@
         font-family: var(--formal-font);
     }
 
-    /*------Section: Header--------------*/
-
-    /*------Section: Homepage--------------*/
-
-    .hidden {
-        visibility: hidden;
+    .dd_list {
+        text-align: center;
+        flex-basis: 50%;
+        flex: 1;
+        white-space: nowrap;
     }
 
-    .show {
-        visibility: visible;
-    }
-
-    .homepage {
+    .content-scroll {
         position: absolute;
-        bottom: 0px;
-        right: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        min-height: 100vh;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        top: var(--header-bar-height);
+        left: 0px;
+        font-family: var(--formal-font);
+        background: url('img/shapelined-_JBKdviweXI-unsplash.jpg') no-repeat center;
+        background-size: cover;
+    }
+
+    .sp_title {
+        padding-left: 2em;
+        white-space: nowrap;
     }
 
     .headertext {
@@ -79,6 +88,32 @@
         font-weight: bold;
         color: darkgreen;
         font-family: var(--fantasy-font);
+        white-space: nowrap;
+    }
+
+    .content {
+        width: 100vw;
+        padding: 1.5vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        min-width: 250px;
+        max-width: 800px;
+        box-shadow: 0px 0px 2px 2px lightcyan;
+        background-color: white;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .homepage {
+        display: flex;
+        flex-basis: 100%;
+        flex: 1;
+        flex-direction: column;
+        padding-bottom: 2em;
     }
 
     div.homepage td {
@@ -91,54 +126,62 @@
         color: darkcyan;
     }
 
-    /*------Section: Homepage--------------*/
-
-    /*------Section: Content--------------*/
-    .content-scroll {
-        position: absolute;
-        display: flex;
-        width: 100vw;
-        height: calc(100vh - var(--header-bar-height));
-        overflow-y: hidden;
-        top: var(--header-bar-height);
-        left: 0px;
-        font-family: var(--formal-font);
-        background: url('img/blue_background.png') no-repeat center;
-        background-size: cover;
+    .hidden {
+        visibility: hidden;
     }
 
-    .content {
-        width: 100vw;
-        padding: 1.5vw;
-        display: flex;
-        flex-direction: column;
-        overflow-y: hidden;
+    .show {
+        visibility: visible;
     }
 
-    .card {
-        min-width: 250px;
-        box-shadow: 0px 0px 2px 2px lightcyan;
-        background-color: white;
-        margin: 1.5vw;
-        padding: 10px;
+    .title_container {
+        flex-basis: 50%;
+        flex: 1;
     }
 
-    /*------Section: Content--------------*/
+    @media (max-width: 570px) {
+        .dd_list {
+            display: flex;
+            flex-direction: column;
+            white-space: initial;
+            align-content: center;
+            padding-top: 0.5em;
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+
+        .header-menu {
+            height: calc(var(--header-bar-height)*2.5);
+        }
+
+        .content-scroll {
+            top: calc(var(--header-bar-height)*2.5);
+        }
+
+        .sp_title {
+            white-space: initial;
+            padding-left: initial;
+        }
+
+        .headertext {
+            white-space: initial;
+        }
+
+        .title_container {
+            flex-basis: 100%;
+            text-align: center;
+        }
+    }
 </style>
 
 <body>
     <div id="vue-app">
         <div class="header-menu">
-            <div style="width:100%">
-                <div style="float:left;padding-left:2em;">
-                    Dragon Ice Interactive Character Encyclopedia
+            <div style="width:100vw;display:flex;flex-wrap: wrap;">
+                <div class="title_container">
+                    <span class="sp_title">Dragon Ice Interactive Character Encyclopedia</span>
                 </div>
-                <div style="position:fixed;bottom:1em;right:2em;">
-                    <audio controls loop>
-                        <source src="audio/aws_medley_2017.wav" type="audio/wav">
-                    </audio>
-                </div>
-                <div style="text-align:center">
+                <div class="dd_list">
                     <select v-model="selectedStoryText" v-on:change="updateStory(event.target.selectedIndex)">
                         <option v-for="list in storyList">{{list.storyName}}</option>
                     </select>
@@ -146,39 +189,40 @@
                         <option v-for="list in storyList[selectedStory].teamList">{{list.teamName}}</option>
                     </select>
                     <select v-model="selectedMemberText" v-on:change="updateMember(event.target.selectedIndex)">
-                        <option v-for="list in storyList[selectedStory].teamList[selectedTeam].memberList">{{list.characterName}}</option>
+                        <option v-for="list in storyList[selectedStory].teamList[selectedTeam].memberList">
+                            {{list.characterName}}</option>
                     </select>
                 </div>
-                
             </div>
-            
         </div>
         <div class="content-scroll">
-            <div style="background-color: black;opacity: 0.7;width:100%;height:100%;position: absolute;">
+            <div style="background-color: black;opacity: 0;width:100%;height:100%;position: absolute;">
             </div>
             <div class="content">
-                <div>
-                    <img v-bind:src="getImagePath()" style="width:40vw;position: absolute;z-index:1;" v-on:error="getImagePathJPG(event)"/>
+                <div style="flex-basis: 100%;flex:1;position: relative; text-align: center;">
+                    <img v-bind:src="getImagePath()" style="max-height:80vh;max-width: 100vw;"
+                        v-on:error="getImagePathJPG(event)" />
                 </div>
-                <div id="homepage" class="homepage show">
-                    <div class="card">
-                        <div class="headertext">
-                            {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterName }} |
-                            {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterNameTH }} |
-                            {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterNameCN }}
-                        </div>
-                        <hr>
-                        <div style="width:50vw;height:20vh;overflow-y:auto;overflow-x:none;">
-                            {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterDescriptionEN}}
-                        </div>
-                        <hr>
-                        <div style="width:50vw;height:20vh;overflow-y:auto;overflow-x:none;">
-                            {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterDescriptionTH}}
-                        </div>
-                        <hr>
-                        <div style="width:50vw;height:20vh;overflow-y:auto;overflow-x:none;">
-                            {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterDescriptionCN}}
-                        </div>
+            </div>
+            <div id="homepage" class="homepage show">
+                <div class="card">
+                    <div class="headertext">
+                        {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterName }} |
+                        {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterNameTH }}
+                        |
+                        {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterNameCN }}
+                    </div>
+                    <hr>
+                    <div style="width:50vw;overflow-y:auto;overflow-x:none;">
+                        {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterDescriptionEN}}
+                    </div>
+                    <hr>
+                    <div style="width:50vw;overflow-y:auto;overflow-x:none;">
+                        {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterDescriptionTH}}
+                    </div>
+                    <hr>
+                    <div style="width:50vw;overflow-y:auto;overflow-x:none;">
+                        {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterDescriptionCN}}
                     </div>
                 </div>
             </div>
