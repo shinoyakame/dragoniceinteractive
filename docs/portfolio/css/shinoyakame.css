@@ -1,0 +1,5 @@
+﻿@charset "UTF-8";
+.sny-gradient-blue {
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 5%, rgba(0,14,98,1) 100%);
+}
