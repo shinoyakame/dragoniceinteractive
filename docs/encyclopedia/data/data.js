@@ -204,6 +204,14 @@ new Vue({
                                 characterDescriptionCN : "(描述)"
                             },
                             {
+                                characterName : "Neon Furret",
+                                characterNameTH : "นีออน เฟอร์เรต",
+                                characterNameCN : "-",
+                                characterDescriptionTH : "เวปอนมาสเตอร์คนที่ 13",
+                                characterDescriptionEN : "(description)",
+                                characterDescriptionCN : "(描述)"
+                            },
+                            {
                                 characterName : "Remedy Rabbit",
                                 characterNameTH : "เรเมดี้ แรบบิท",
                                 characterNameCN : "-",
@@ -474,6 +482,14 @@ new Vue({
                                 characterName : "Lighter Fox",
                                 characterNameTH : "ไลท์เตอร์ ฟ็อกซ์",
                                 characterNameCN : "狐亮 (หูเลี่ยง)",
+                                characterDescriptionTH : "(คำอธิบาย)",
+                                characterDescriptionEN : "(description)",
+                                characterDescriptionCN : "(描述)"
+                            },
+                            {
+                                characterName : "Pride Fox",
+                                characterNameTH : "ไพรด์ ฟ็อกซ์",
+                                characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)"
@@ -760,16 +776,16 @@ new Vue({
                                 characterDescriptionCN : "(描述)"
                             },
                             {
-                                characterName : "Zero Firefox",
-                                characterNameTH : "ซีโร่ ไฟร์ฟ็อกซ์",
+                                characterName : "Zero Redpanda",
+                                characterNameTH : "ซีโร่ เรดแพนด้า",
                                 characterNameCN : "零堕 (หลิงตั้ว)",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)"
                             },
                             {
-                                characterName : "Zero Firefox (Teenage)",
-                                characterNameTH : "ซีโร่ ไฟร์ฟ็อกซ์ (ตอนโต)",
+                                characterName : "Zero Redpanda (Teenage)",
+                                characterNameTH : "ซีโร่ เรดแพนด้า (ตอนโต)",
                                 characterNameCN : "零堕",
                                 characterDescriptionTH : "ปรากฏตัวในนิยาย Animalwars Series x Detective Company",
                                 characterDescriptionEN : "(description)",
@@ -1193,6 +1209,20 @@ new Vue({
             var team = story.teamList[this.selectedTeam];
             var member = team.memberList[this.selectedMember];
             var jpgPath = 'img/character/' + story.storyName + '/' + team.teamName + '/' + member.characterName + '.jpg';
+            event.target.src = jpgPath;
+        },
+        getThumbnailPath : function(){
+            var story = this.storyList[this.selectedStory];
+            var team = story.teamList[this.selectedTeam];
+            var member = team.memberList[this.selectedMember];
+            var pngPath = 'img/character/' + story.storyName + '/' + team.teamName + '/' + member.characterName + '_thumb.png';
+            return pngPath;
+        },
+        getThumbnailPathError : function(event){
+            var story = this.storyList[this.selectedStory];
+            var team = story.teamList[this.selectedTeam];
+            var member = team.memberList[this.selectedMember];
+            var jpgPath = 'img/character/Animalwars Series/Executioner Angels/Lighter Fox_thumb.png';
             event.target.src = jpgPath;
         }
     },

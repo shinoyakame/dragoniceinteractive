@@ -198,31 +198,37 @@
         <div class="content-scroll">
             <div style="background-color: black;opacity: 0;width:100%;height:100%;position: absolute;">
             </div>
-            <div class="content">
-                <div style="flex-basis: 100%;flex:1;position: relative; text-align: center;">
-                    <img v-bind:src="getImagePath()" style="max-height:80vh;max-width: 100vw;"
-                        v-on:error="getImagePathJPG(event)" />
+            <div style="display: flex;flex-wrap: wrap;justify-content: space-evenly;">
+                <div id="homepage" class="homepage show" style="width:600px;margin-top:10vh;">
+                    <div class="card">
+                        <div style="flex-basis: 100%;flex:1;position: relative; text-align: center;">
+                            <img v-bind:src="getThumbnailPath()" style="max-height:30vh;max-width: 100vw;"
+                            v-on:error="getThumbnailPathError(event)" />
+                        </div>
+                        <div class="headertext">
+                            {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterName }} |
+                            {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterNameTH }}
+                            |
+                            {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterNameCN }}
+                        </div>
+                        <hr>
+                        <div style="width:50vw;overflow-y:auto;overflow-x:none;">
+                            {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterDescriptionEN}}
+                        </div>
+                        <hr>
+                        <div style="width:50vw;overflow-y:auto;overflow-x:none;">
+                            {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterDescriptionTH}}
+                        </div>
+                        <hr>
+                        <div style="width:50vw;overflow-y:auto;overflow-x:none;">
+                            {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterDescriptionCN}}
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div id="homepage" class="homepage show">
-                <div class="card">
-                    <div class="headertext">
-                        {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterName }} |
-                        {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterNameTH }}
-                        |
-                        {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterNameCN }}
-                    </div>
-                    <hr>
-                    <div style="width:50vw;overflow-y:auto;overflow-x:none;">
-                        {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterDescriptionEN}}
-                    </div>
-                    <hr>
-                    <div style="width:50vw;overflow-y:auto;overflow-x:none;">
-                        {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterDescriptionTH}}
-                    </div>
-                    <hr>
-                    <div style="width:50vw;overflow-y:auto;overflow-x:none;">
-                        {{ storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].characterDescriptionCN}}
+                <div class="content" style="width:400px;margin:auto;">
+                    <div style="flex-basis: 100%;flex:1;position: relative; text-align: center;">
+                        <img v-bind:src="getImagePath()" style="max-height:80vh;max-width:20vw;"
+                            v-on:error="getImagePathJPG(event)" />
                     </div>
                 </div>
             </div>
