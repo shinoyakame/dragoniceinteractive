@@ -20,7 +20,9 @@ new Vue({
                                 characterNameCN : "雷期 (เหลยชี)",
                                 characterDescriptionTH : "หัวหน้าเวปอนมาสเตอร์รุ่นที่ 4 และรองหัวหน้าทีม ไซเคิลเป็นหลานของวีรบุรุษเซอคิท ผู้กอบกู้โลกจากคิงโครโนดราก้อน ราชามังกรปีศาจ ถุงมือวงจรเวทเป็นอาวุธในตำนานที่คุณปู่ให้ไซเคิลมา โดยไซเคิลจะต้องรวบรวมผู้พิทักษ์ทั้ง 5 คน เพื่อปลดผนึกดาบสั้น และพาเพื่อน ๆ ผ่านการทดสอบของผู้คุมโซนทั้ง 12 คน เพื่อปลดล็อคอาวุธในตำนานที่ทรงพลังที่สุด",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Ray Tortoise",
@@ -28,7 +30,9 @@ new Vue({
                                 characterNameCN : "光龙 (กวางหลง)",
                                 characterDescriptionTH : "หัวหน้าทีมอะนิมมอลวอร์ ฉายา 'วิหคแห่งแสง' และ 'มังกรน้อย' ใช้เวทแสงในการต่อสู้",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Ray Tortoise (Demon Form)",
@@ -36,7 +40,9 @@ new Vue({
                                 characterNameCN : "光龙",
                                 characterDescriptionTH : "ร่างปีศาจในนิยายจะเรียกว่า 'มังกรแฝงร่าง' ใช้ได้เฉพาะกลุ่มเซเว่นวอนเดอร์",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Ray Tortoise (Dragon Form)",
@@ -44,7 +50,9 @@ new Vue({
                                 characterNameCN : "光龙",
                                 characterDescriptionTH : "ร่างหลังจากทำพิธีสืบทอดทายาทมังกร เรย์ใช้ร่างนี้ในการต่อสู้กับคิงโครโนดราก้อน ในนิยายยังไม่ปรากฏ",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Sky Hawk",
@@ -52,7 +60,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "พ่อครัวประจำทีม ใช้ธาตุเหล็กเป็นหลัก โจมตีทางกายภาพ",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Frost Polarbear",
@@ -60,7 +70,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "ผู้ใช้อาวุธต้องคำสาป 'ดาบมังกรดำ' ใช้ธาตุมืดและน้ำแข็ง สามารถจับจิตสังหารได้",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Knuckle Owl",
@@ -68,7 +80,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "เพื่อนสมัยเด็กของเรย์ ใช้ธาตุมืดเป็นหลัก",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Knuckle Owl (Teenage)",
@@ -76,7 +90,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "ปรากฏตัวในนิยาย Animalwars Series x Detective Company",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Nill Cat",
@@ -84,7 +100,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "ลูกสาวของวาดอร์ แอบชอบเรย์",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Chimon Tortoise",
@@ -92,7 +110,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "น้องชายคนเล็กของเรย์",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Saito Dog",
@@ -100,7 +120,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "ผู้คุมโซนพิสเซส มีหน้าที่ทดสอบและดูแลไซเคิล",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Chelonia Turtle",
@@ -108,7 +130,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "ผู้คุมโซนแอเรียส มีหน้าที่ดูแลและทดสอบสกาย",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Chelonia Turtle (Golgol Form)",
@@ -116,7 +140,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "กอลกอลเป็นเพ็ทของคีโลเนีย ที่อยู่ในรูปแบบเวทมนตร์ ไม่ใช่พันธะสัญญาเหมือนคนอื่น",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Sarada Polarbear",
@@ -124,7 +150,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "เสนาธิการคนสนิทของคีโลเนีย",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Phiral Penguin",
@@ -132,7 +160,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "เพ็ทของไซเคิล",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Weremon Wolf",
@@ -140,7 +170,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "เพ็ทของฟรอสท์ สมุนของคิงโครโนดราก้อนหมายเลข 1",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Alex Rat",
@@ -148,7 +180,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "เพ็ทของนิล",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Chika Mole",
@@ -156,7 +190,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "เพ็ทของนัคเคิล (ปัจจุบันยังไม่ทำพันธะสัญญา)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Beo Basilisk",
@@ -164,7 +200,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "เพ็ทของเรย์",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Signal Hedgehog",
@@ -172,7 +210,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "เพ็ทของสกาย",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Zuri Sparrow",
@@ -180,7 +220,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "เพ็ทของชิม่อน",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                         ]
                     },
@@ -193,7 +235,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "เจ้าชายมาเฟีย",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Sabi Rat",
@@ -201,7 +245,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "เสนาธิการของคีโลเนีย น้องสาวของเวิร์ค และคู่หูของแชมเปี้ยน",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Neon Furret",
@@ -209,7 +255,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "เวปอนมาสเตอร์คนที่ 13",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Remedy Rabbit",
@@ -217,7 +265,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "พี่สาวของฟีล",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Shelter Bull",
@@ -225,7 +275,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "น้องชายบุญธรรมของไกอา บูล ซึ่งปัจจุบันกลายเป็นเสนาธิการของคีโลเนีย",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Radow Magpie",
@@ -233,7 +285,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "พี่ชายต่างสายเลือดของสนิคเคอร์",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Black Rabbit",
@@ -241,7 +295,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "หัวหน้าหน่วยอารักขาของเรเมดี้",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "White Rabbit",
@@ -249,7 +305,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "รองหัวหน้าหน่วยอารักขาของเรเมดี้",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Rildo Rabbit",
@@ -257,7 +315,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "ทหารยามบ๊อง ๆ ของเพียว ชอบสูดกัญชา เป็นคนส่งสาร",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                         ]
                     },
@@ -270,7 +330,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Illus Fish",
@@ -278,7 +340,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Rose Hawk",
@@ -286,7 +350,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                         ]
                     },
@@ -299,7 +365,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "ตัวประกอบบันเทิง",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Agu Girrafe",
@@ -307,7 +375,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "ตัวประกอบบันเทิง",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Uke Monkey",
@@ -315,7 +385,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "ตัวประกอบบันเทิง",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Egae Gecko",
@@ -323,7 +395,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "ตัวประกอบบันเทิง",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                         ]
                     },
@@ -336,7 +410,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Elemental Dog",
@@ -344,7 +420,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "ร่างมืดของไซเคิล",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "King Chronodragon",
@@ -352,7 +430,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Gaia Bull",
@@ -360,7 +440,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Dusk Tortoise",
@@ -368,7 +450,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Dusk Tortoise (Demon Form)",
@@ -376,7 +460,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                         ]
                     },
@@ -389,7 +475,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Snicker Magpie",
@@ -397,7 +485,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Ghost Loris",
@@ -405,15 +495,19 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Tox Bat",
                                 characterNameTH : "ท็อกซ์ แบท",
                                 characterNameCN : "-",
-                                characterDescriptionTH : "(คำอธิบาย)",
+                                characterDescriptionTH : "ชาวเนทูล่า การ์เด้นท์ ในนิยายภาครีเมคนั้นได้เฉลยว่าเป็นไลท์เตอร์ร่างเทวทูตปลอมตัวมา",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Cherry Woodpecker",
@@ -421,7 +515,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                         ]
                     },
@@ -432,9 +528,11 @@ new Vue({
                                 characterName : "King Quantum",
                                 characterNameTH : "คิงควอนตัม",
                                 characterNameCN : "-",
-                                characterDescriptionTH : "(คำอธิบาย)",
+                                characterDescriptionTH : "พระเอกตัวที่สามของเรื่อง เป็นราชาโลกใต้ดิน D Alternate",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Ion Human",
@@ -442,7 +540,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                         ]
                     },
@@ -455,7 +555,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Hunter",
@@ -463,7 +565,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                         ]
                     },
@@ -476,15 +580,29 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
-                                characterName : "Lighter Fox",
+                                characterName : "Lighter Fox (Angel Form)",
+                                characterNameTH : "ไลท์เตอร์ ฟ็อกซ์ (ร่างเทวทูต)",
+                                characterNameCN : "狐亮 (หูเลี่ยง)",
+                                characterDescriptionTH : "ไลท์เตอร์เป็นตุ๊กตา Remote ของ ไพรด์ ร่างนี้ปรากฏบ่อยที่สุดในนิยาย และมีความเป็นมิตรกว่าร่างอื่น ๆ",
+                                characterDescriptionEN : "(description)",
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
+                            },
+                            {
+                                characterName : "Lighter Fox (Parasyte Form)",
                                 characterNameTH : "ไลท์เตอร์ ฟ็อกซ์",
                                 characterNameCN : "狐亮 (หูเลี่ยง)",
-                                characterDescriptionTH : "(คำอธิบาย)",
+                                characterDescriptionTH : "ไลท์เตอร์เป็นตุ๊กตา Remote ของ ไพรด์ ร่างนี้ปรากฏในตอนคาสิโนภาคซีโร่ ไม่เป็นมิตร",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Pride Fox",
@@ -492,7 +610,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Gelix Raccoon",
@@ -500,7 +620,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Sloth Goat",
@@ -508,7 +630,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Luna Chick",
@@ -516,7 +640,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Goldy Seal",
@@ -524,7 +650,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Flanky Otter",
@@ -532,7 +660,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Shadowman Dog",
@@ -540,7 +670,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Envy Dragon",
@@ -548,15 +680,19 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Furabute Furret",
                                 characterNameTH : "ฟุราบุเตะ เฟอร์เร็ต",
                                 characterNameCN : "-",
-                                characterDescriptionTH : "สมุนปัญญาประดิษฐ์ของไลท์เตอร์",
+                                characterDescriptionTH : "สมุนปัญญาประดิษฐ์ของไลท์เตอร์ ปรากฏเฉพาะภาคต้นฉบับ",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                         ]
                     },
@@ -569,7 +705,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "เขาเป็นอินทรีที่เติบโตมาในตระกูคฮอค คุณปู่ของสกายเก็บเอลิบอมได้ และตั้งชื่อย้อนตัวละครคำว่าโมบาย (Mobile) ซึ่งเป็นชื่อของโมบาย อีเกิ้ล (Mobile Eagle) พ่อที่แท้จริงของเอลิบอม ที่ตายไปแล้วตั้งแต่เอลิบอมยังเด็ก",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Elibom Hawk (Mobile Eagle Form)",
@@ -577,7 +715,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "เอลิบอมใช้ร่างนี้ต่อสู้กับทีมแอนิมมอลวอร์ที่มีสมาชิก 6 คน ใน SS2",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Crune Panther",
@@ -585,7 +725,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Grid Monkey",
@@ -593,7 +735,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Impact Beetle",
@@ -601,7 +745,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                         ]
                     },
@@ -614,7 +760,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Bullet Tortoise",
@@ -622,7 +770,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Paper Owl",
@@ -630,7 +780,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                         ]
                     },
@@ -643,7 +795,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Chen Dog",
@@ -651,7 +805,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Orgey Pig",
@@ -659,7 +815,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Jolly Elephant",
@@ -667,7 +825,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Flame Cat",
@@ -675,7 +835,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Feel Rabbit",
@@ -683,7 +845,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Ore Panda",
@@ -691,7 +855,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Sica Frog",
@@ -699,7 +865,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "เพ็ทของเชน",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                         ]
                     },
@@ -712,7 +880,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Verk Rat",
@@ -720,7 +890,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Dream Sheep",
@@ -728,7 +900,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Kyle Duck",
@@ -736,7 +910,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Chimone Chimera (Demon Form)",
@@ -744,7 +920,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                         ]
                     },
@@ -757,7 +935,9 @@ new Vue({
                                 characterNameCN : "孙火 (ซุนหวอ)",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Crimson Beetle",
@@ -765,7 +945,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Malee Squirrel",
@@ -773,7 +955,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Zero Redpanda",
@@ -781,7 +965,9 @@ new Vue({
                                 characterNameCN : "零堕 (หลิงตั้ว)",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Zero Redpanda (Teenage)",
@@ -789,7 +975,9 @@ new Vue({
                                 characterNameCN : "零堕",
                                 characterDescriptionTH : "ปรากฏตัวในนิยาย Animalwars Series x Detective Company",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Mawmaw Termite",
@@ -797,7 +985,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Wing Butterfly",
@@ -805,7 +995,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Midmid Ant",
@@ -813,7 +1005,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Phenia Phoenix",
@@ -821,7 +1015,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                         ]
                     },
@@ -834,7 +1030,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Chipper Chick",
@@ -842,7 +1040,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                         ]
                     },
@@ -855,7 +1055,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "แม่ของมาลี ถูกไคมีร่าสังหาร",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Livo Squirrel",
@@ -863,7 +1065,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Shamant Squirrel",
@@ -871,7 +1075,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                         ]
                     },
@@ -884,7 +1090,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Spark Dog",
@@ -892,7 +1100,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Bronze Deer",
@@ -900,7 +1110,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Rod Polarbear",
@@ -908,7 +1120,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Zephyr Hawk",
@@ -916,7 +1130,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Jewel Hawk",
@@ -924,7 +1140,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Cargo Sheep",
@@ -932,7 +1150,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "พ่อของดรีม พ่อค้าขายของชำประจำเมืองสแควร์ เสียชีวิตที่นครลอยฟ้า",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                         ]
                     },
@@ -945,7 +1165,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Beastking Tortoise (Dragon Form)",
@@ -953,7 +1175,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Vador Cat",
@@ -961,7 +1185,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Vador Cat (Demon Form)",
@@ -969,7 +1195,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Music Cat",
@@ -977,7 +1205,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Punchz Cat",
@@ -985,7 +1215,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                         ]
                     },
@@ -998,7 +1230,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Apollo Rabbit",
@@ -1006,7 +1240,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Shining Cheetah",
@@ -1014,7 +1250,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             },
                             {
                                 characterName : "Shiro Sparrow",
@@ -1022,7 +1260,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : true
                             }
                         ]
                     }
@@ -1040,7 +1280,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                         ]
                     },
@@ -1053,7 +1295,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Ellie Starf",
@@ -1061,7 +1305,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                         ]
                     },
@@ -1079,7 +1325,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Messe Human",
@@ -1087,7 +1335,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Alpaca Cat",
@@ -1095,7 +1345,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Ollie Snowman",
@@ -1103,7 +1355,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Golem",
@@ -1111,7 +1365,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Snow Queen Anthea",
@@ -1119,7 +1375,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                         ]
                     },
@@ -1132,7 +1390,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                         ]
                     },
@@ -1145,7 +1405,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Bastet Cat",
@@ -1153,7 +1415,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Horus Hawk",
@@ -1161,7 +1425,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                             {
                                 characterName : "Sobek Crocodile",
@@ -1169,7 +1435,9 @@ new Vue({
                                 characterNameCN : "-",
                                 characterDescriptionTH : "(คำอธิบาย)",
                                 characterDescriptionEN : "(description)",
-                                characterDescriptionCN : "(描述)"
+                                characterDescriptionCN : "(描述)",
+                                hasImage : true,
+                                hasThumbnail : false
                             },
                         ]
                     },
@@ -1201,29 +1469,27 @@ new Vue({
             var story = this.storyList[this.selectedStory];
             var team = story.teamList[this.selectedTeam];
             var member = team.memberList[this.selectedMember];
-            var pngPath = 'img/character/' + story.storyName + '/' + team.teamName + '/' + member.characterName + '.png';
-            return pngPath;
-        },
-        getImagePathJPG : function(event){
-            var story = this.storyList[this.selectedStory];
-            var team = story.teamList[this.selectedTeam];
-            var member = team.memberList[this.selectedMember];
-            var jpgPath = 'img/character/' + story.storyName + '/' + team.teamName + '/' + member.characterName + '.jpg';
-            event.target.src = jpgPath;
+
+            if(member.hasImage){
+                var imageUrl = 'img/character/' + story.storyName + '/' + team.teamName + '/' + member.characterName;
+                var pngPath = imageUrl + '.png';
+                return pngPath;
+            }else{
+                return 'img/no_image.png';
+            }
         },
         getThumbnailPath : function(){
             var story = this.storyList[this.selectedStory];
             var team = story.teamList[this.selectedTeam];
             var member = team.memberList[this.selectedMember];
-            var pngPath = 'img/character/' + story.storyName + '/' + team.teamName + '/' + member.characterName + '_thumb.png';
-            return pngPath;
-        },
-        getThumbnailPathError : function(event){
-            var story = this.storyList[this.selectedStory];
-            var team = story.teamList[this.selectedTeam];
-            var member = team.memberList[this.selectedMember];
-            var jpgPath = 'img/character/Animalwars Series/Executioner Angels/Lighter Fox_thumb.png';
-            event.target.src = jpgPath;
+
+            if(member.hasThumbnail){
+                var imageUrl = 'img/character/' + story.storyName + '/' + team.teamName + '/' + member.characterName;
+                var pngPath = imageUrl + '_thumb.png';
+                return pngPath;
+            }else{
+                return 'img/no_image.png';
+            }
         }
     },
     beforeMount(){
