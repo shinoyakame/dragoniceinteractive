@@ -1,14 +1,10 @@
 :root {
     --blue-color: rgb(75, 75, 247);
-    --header-bar-height: 50px;
     --cartoon-font: "Comic Sans MS", cursive, sans-serif;
     --formal-font: "Courier New", Courier, monospace;
     --fantasy-font: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     ;
     --gradient-gray: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(233, 233, 233, 1) 100%);
-    --info-left: 70px;
-    --header-select-width: 14em;
-    --info-container-width: calc(100vw - var(--info-left) - var(--header-select-width));
 }
 
 html {
@@ -60,14 +56,6 @@ div.homepage td {
 div.homepage tr td:first-child {
     font-weight: bold;
     color: darkcyan;
-}
-
-.hidden {
-    visibility: hidden;
-}
-
-.show {
-    visibility: visible;
 }
 
 @media (max-width: 570px) {

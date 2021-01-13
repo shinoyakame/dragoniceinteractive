@@ -22,7 +22,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 2
                             },
                             {
                                 characterName : "Ray Tortoise",
@@ -32,7 +33,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Ray Tortoise (Demon Form)",
@@ -42,7 +44,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Ray Tortoise (Dragon Form)",
@@ -52,7 +55,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Sky Hawk",
@@ -62,7 +66,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Frost Polarbear",
@@ -72,7 +77,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Knuckle Owl",
@@ -82,7 +88,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Knuckle Owl (Teenage)",
@@ -92,7 +99,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Nill Cat",
@@ -102,7 +110,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Chimon Tortoise",
@@ -112,7 +121,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Saito Dog",
@@ -122,7 +132,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Chelonia Turtle",
@@ -132,7 +143,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Chelonia Turtle (Golgol Form)",
@@ -142,7 +154,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Sarada Polarbear",
@@ -152,7 +165,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Phiral Penguin",
@@ -162,7 +176,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Weremon Wolf",
@@ -172,7 +187,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Alex Rat",
@@ -182,7 +198,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Chika Mole",
@@ -192,7 +209,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Beo Basilisk",
@@ -202,7 +220,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Signal Hedgehog",
@@ -212,7 +231,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Zuri Sparrow",
@@ -222,7 +242,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                         ]
                     },
@@ -237,7 +258,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Sabi Rat",
@@ -247,7 +269,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Neon Furret",
@@ -257,7 +280,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Remedy Rabbit",
@@ -267,7 +291,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Shelter Bull",
@@ -277,7 +302,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Radow Magpie",
@@ -287,7 +313,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Black Rabbit",
@@ -297,7 +324,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "White Rabbit",
@@ -307,7 +335,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Rildo Rabbit",
@@ -317,7 +346,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                         ]
                     },
@@ -332,7 +362,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Illus Fish",
@@ -342,7 +373,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Rose Hawk",
@@ -352,7 +384,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                         ]
                     },
@@ -367,7 +400,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Agu Girrafe",
@@ -377,7 +411,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Uke Monkey",
@@ -387,7 +422,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Egae Gecko",
@@ -397,7 +433,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                         ]
                     },
@@ -412,7 +449,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Elemental Dog",
@@ -422,7 +460,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "King Chronodragon",
@@ -432,7 +471,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Gaia Bull",
@@ -442,7 +482,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Dusk Tortoise",
@@ -452,7 +493,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Dusk Tortoise (Demon Form)",
@@ -462,7 +504,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                         ]
                     },
@@ -477,7 +520,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Snicker Magpie",
@@ -487,7 +531,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Ghost Loris",
@@ -497,7 +542,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Tox Bat",
@@ -507,7 +553,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Cherry Woodpecker",
@@ -517,7 +564,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                         ]
                     },
@@ -532,7 +580,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Ion Human",
@@ -542,7 +591,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                         ]
                     },
@@ -557,7 +607,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Hunter",
@@ -567,7 +618,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                         ]
                     },
@@ -582,7 +634,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Lighter Fox (Angel Form)",
@@ -592,7 +645,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Lighter Fox (Parasyte Form)",
@@ -602,7 +656,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Pride Fox",
@@ -612,7 +667,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Gelix Raccoon",
@@ -622,7 +678,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Sloth Goat",
@@ -632,7 +689,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Luna Chick",
@@ -642,7 +700,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Goldy Seal",
@@ -652,7 +711,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Flanky Otter",
@@ -662,7 +722,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Shadowman Dog",
@@ -672,7 +733,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Envy Dragon",
@@ -682,7 +744,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Furabute Furret",
@@ -692,7 +755,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                         ]
                     },
@@ -707,7 +771,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Elibom Hawk (Mobile Eagle Form)",
@@ -717,7 +782,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Crune Panther",
@@ -727,7 +793,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Grid Monkey",
@@ -737,7 +804,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Impact Beetle",
@@ -747,7 +815,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                         ]
                     },
@@ -762,7 +831,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Bullet Tortoise",
@@ -772,7 +842,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Paper Owl",
@@ -782,7 +853,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                         ]
                     },
@@ -797,7 +869,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Chen Dog",
@@ -807,7 +880,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Orgey Pig",
@@ -817,7 +891,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Jolly Elephant",
@@ -827,7 +902,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Flame Cat",
@@ -837,7 +913,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Feel Rabbit",
@@ -847,7 +924,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Ore Panda",
@@ -857,7 +935,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Sica Frog",
@@ -867,7 +946,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                         ]
                     },
@@ -882,7 +962,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Verk Rat",
@@ -892,7 +973,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Dream Sheep",
@@ -902,7 +984,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Kyle Duck",
@@ -912,7 +995,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Chimone Chimera (Demon Form)",
@@ -922,7 +1006,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                         ]
                     },
@@ -937,7 +1022,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Crimson Beetle",
@@ -947,7 +1033,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Malee Squirrel",
@@ -957,7 +1044,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Zero Redpanda",
@@ -967,7 +1055,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Zero Redpanda (Teenage)",
@@ -977,7 +1066,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Mawmaw Termite",
@@ -987,7 +1077,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Wing Butterfly",
@@ -997,7 +1088,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Midmid Ant",
@@ -1007,7 +1099,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Phenia Phoenix",
@@ -1017,7 +1110,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                         ]
                     },
@@ -1032,7 +1126,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Chipper Chick",
@@ -1042,7 +1137,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                         ]
                     },
@@ -1057,7 +1153,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Livo Squirrel",
@@ -1067,7 +1164,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Shamant Squirrel",
@@ -1077,7 +1175,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                         ]
                     },
@@ -1092,7 +1191,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Spark Dog",
@@ -1102,7 +1202,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Bronze Deer",
@@ -1112,7 +1213,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Rod Polarbear",
@@ -1122,7 +1224,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Zephyr Hawk",
@@ -1132,7 +1235,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Jewel Hawk",
@@ -1142,7 +1246,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Cargo Sheep",
@@ -1152,7 +1257,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                         ]
                     },
@@ -1167,7 +1273,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Beastking Tortoise (Dragon Form)",
@@ -1177,7 +1284,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Vador Cat",
@@ -1187,7 +1295,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Vador Cat (Demon Form)",
@@ -1197,7 +1306,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Music Cat",
@@ -1207,7 +1317,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Punchz Cat",
@@ -1217,7 +1328,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                         ]
                     },
@@ -1232,7 +1344,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Apollo Rabbit",
@@ -1242,7 +1355,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Shining Cheetah",
@@ -1252,7 +1366,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Shiro Sparrow",
@@ -1262,7 +1377,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : true
+                                hasThumbnail : true,
+                                imageCount : 1
                             }
                         ]
                     }
@@ -1282,7 +1398,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                         ]
                     },
@@ -1297,7 +1414,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Ellie Starf",
@@ -1307,7 +1425,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                         ]
                     },
@@ -1327,7 +1446,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Messe Human",
@@ -1337,7 +1457,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Alpaca Cat",
@@ -1347,7 +1468,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Ollie Snowman",
@@ -1357,7 +1479,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Golem",
@@ -1367,7 +1490,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Snow Queen Anthea",
@@ -1377,7 +1501,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                         ]
                     },
@@ -1392,7 +1517,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                         ]
                     },
@@ -1407,7 +1533,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Bastet Cat",
@@ -1417,7 +1544,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Horus Hawk",
@@ -1427,7 +1555,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                             {
                                 characterName : "Sobek Crocodile",
@@ -1437,7 +1566,8 @@ new Vue({
                                 characterDescriptionEN : "(description)",
                                 characterDescriptionCN : "(描述)",
                                 hasImage : true,
-                                hasThumbnail : false
+                                hasThumbnail : false,
+                                imageCount : 1
                             },
                         ]
                     },
@@ -1466,13 +1596,16 @@ new Vue({
             this.selectedMember = index;
             this.update();
         },
-        getImagePath : function(){
+        getImagePath : function(index){
             var story = this.storyList[this.selectedStory];
             var team = story.teamList[this.selectedTeam];
             var member = team.memberList[this.selectedMember];
 
             if(member.hasImage){
                 var imageUrl = 'img/character/' + story.storyName + '/' + team.teamName + '/' + member.characterName;
+                if(index!=undefined && index > 0){
+                    imageUrl += '_' + index.toString();
+                }
                 var pngPath = imageUrl + '.png';
                 return pngPath;
             }else{
