@@ -20,48 +20,10 @@ body {
     margin: 0px;
 }
 
-/*------Section: Header--------------*/
-.header-menu {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    background: var(--gradient-gray);
-    color: black;
-    border-bottom: 1px solid gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: var(--header-bar-height);
-    z-index: 300;
-    font-family: var(--formal-font);
-}
-
-.dd_list {
-    text-align: center;
-    flex-basis: 50%;
-    flex: 1;
-    white-space: nowrap;
-}
-
 .content-scroll {
-    /* position: absolute;
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    min-height: 100vh;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    top: var(--header-bar-height);
-    left: 0px; */
     font-family: var(--formal-font);
     background: url('../img/shapelined-_JBKdviweXI-unsplash.jpg') no-repeat center;
     background-size: cover;
-}
-
-.sp_title {
-    padding-left: 2em;
-    white-space: nowrap;
 }
 
 .headertext {
@@ -71,14 +33,6 @@ body {
     color: darkgreen;
     font-family: var(--fantasy-font);
     white-space: nowrap;
-}
-
-.content {
-    width: 100vw;
-    padding: 1.5vw;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
 .card {
@@ -116,41 +70,8 @@ div.homepage tr td:first-child {
     visibility: visible;
 }
 
-.title_container {
-    flex-basis: 50%;
-    flex: 1;
-}
-
 @media (max-width: 570px) {
-    .dd_list {
-        display: flex;
-        flex-direction: column;
-        white-space: initial;
-        align-content: center;
-        padding-top: 0.5em;
-        padding-left: 2em;
-        padding-right: 2em;
-    }
-
-    .header-menu {
-        height: calc(var(--header-bar-height)*2.5);
-    }
-
-    .content-scroll {
-        top: calc(var(--header-bar-height)*2.5);
-    }
-
-    .sp_title {
-        white-space: initial;
-        padding-left: initial;
-    }
-
     .headertext {
         white-space: initial;
-    }
-
-    .title_container {
-        flex-basis: 100%;
-        text-align: center;
     }
 }
