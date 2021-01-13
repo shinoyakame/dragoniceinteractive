@@ -1464,6 +1464,7 @@ new Vue({
         },
         updateMember : function(index){
             this.selectedMember = index;
+            this.update();
         },
         getImagePath : function(){
             var story = this.storyList[this.selectedStory];
