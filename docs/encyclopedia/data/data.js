@@ -7,6 +7,7 @@ new Vue({
         selectedStoryText : "",
         selectedTeamText : "",
         selectedMemberText : "",
+        selectedLanguage : "TH",
         storyList : [
             {
                 storyName : "Animalwars Series",
@@ -1623,6 +1624,32 @@ new Vue({
                 return pngPath;
             }else{
                 return 'img/no_image.png';
+            }
+        },
+        getCharacterName : function(){
+            var story = this.storyList[this.selectedStory];
+            var team = story.teamList[this.selectedTeam];
+            var member = team.memberList[this.selectedMember];
+
+            if(this.selectedLanguage == undefined || this.selectedLanguage == "TH"){
+                return member.characterNameTH;
+            }else if(this.selectedLanguage == "EN"){
+                return member.characterName;
+            }else if(this.selectedLanguage == "CN"){
+                return member.characterNameCN;
+            }
+        },
+        getCharacterDescription : function () {
+            var story = this.storyList[this.selectedStory];
+            var team = story.teamList[this.selectedTeam];
+            var member = team.memberList[this.selectedMember];
+
+            if(this.selectedLanguage == undefined || this.selectedLanguage == "TH"){
+                return member.characterDescriptionTH;
+            }else if(this.selectedLanguage == "EN"){
+                return member.characterDescriptionEN;
+            }else if(this.selectedLanguage == "CN"){
+                return member.characterDescriptionCN;
             }
         }
     },
