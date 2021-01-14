@@ -81,22 +81,29 @@
                 <div class="card" style="margin-top:1em;">
                     <h5 class="card-header headertext">{{ getCharacterName() }}</h5>
                     <div class="card-body">
-                        <div class="d-flex flex-wrap flex-sm-wrap flex-md-nowrap">
-                            <div class="d-flex mx-auto mb-3 mb-md-0 me-md-3" style="margin-right:1em;">
-                                <img v-bind:src="getThumbnailPath()" style="max-height:30vh;max-width: 100vw;"
-                                    class="img-thumbnail" v-on:error="" />
-                            </div>
-                            <div style="padding-right:1em;">
-                                {{ getCharacterDescription() }}
+                        <div class="btn-group mb-2" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn-dark active"
+                                v-on:click="changeLanguage('TH')">TH</button>
+                            <button type="button" class="btn btn-dark" v-on:click="changeLanguage('EN')">EN</button>
+                            <button type="button" class="btn btn-dark" v-on:click="changeLanguage('CN')">CN</button>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mb-3">
+                                    <img v-bind:src="getThumbnailPath()" style="max-height:30vh;max-width: 100vw;"
+                                        class="img-thumbnail" v-on:error="" />
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 text-start">
+                                    {{ getCharacterDescription() }}
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div id="carouselExampleIndicators" class="carousel slide bg-dark" data-bs-ride="carousel">
-                        <ol class="carousel-indicators"
-                            >
+                        <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li v-for="index in carouselMax-1"
-                                data-target="#carouselExampleIndicators" v-bind:data-slide-to="index"></li>
+                            <li v-for="index in carouselMax-1" data-target="#carouselExampleIndicators"
+                                v-bind:data-slide-to="index"></li>
                         </ol>
 
                         <div class="carousel-inner" style="height:70vh;">
@@ -104,8 +111,7 @@
                                 <img v-bind:src="getImagePath(0)" class="d-block w-100" v-on:error="" />
                             </div>
 
-                            <div class="carousel-item"
-                                v-for="index in carouselMax-1">
+                            <div class="carousel-item" v-for="index in carouselMax-1">
                                 <img v-bind:src="getImagePath(index)" class="d-block w-100" v-on:error="" />
                             </div>
                         </div>
