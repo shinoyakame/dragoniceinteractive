@@ -1,6 +1,7 @@
 new Vue({
     el : "#vue-app",
     data : {
+        carouselMax : 2,
         selectedStory : 0,
         selectedTeam : 0,
         selectedMember : 0,
@@ -1602,9 +1603,9 @@ new Vue({
             var team = story.teamList[this.selectedTeam];
             var member = team.memberList[this.selectedMember];
 
-            if(member.hasImage){
+            if(member.hasImage && index!=undefined && index < member.imageCount){
                 var imageUrl = 'img/character/' + story.storyName + '/' + team.teamName + '/' + member.characterName;
-                if(index!=undefined && index > 0){
+                if(index > 0){
                     imageUrl += '_' + index.toString();
                 }
                 var pngPath = imageUrl + '.png';

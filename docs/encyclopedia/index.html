@@ -91,9 +91,9 @@
                     </div>
                     <div id="carouselExampleIndicators" class="carousel slide bg-dark" data-bs-ride="carousel">
                         <ol class="carousel-indicators"
-                            v-if="storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].imageCount > 1">
+                            >
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li v-for="index in storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].imageCount - 1"
+                            <li v-for="index in carouselMax-1"
                                 data-target="#carouselExampleIndicators" v-bind:data-slide-to="index"></li>
                         </ol>
 
@@ -102,8 +102,8 @@
                                 <img v-bind:src="getImagePath(0)" class="d-block w-100" v-on:error="" />
                             </div>
 
-                            <div class="carousel-item "
-                                v-for="index in storyList[selectedStory].teamList[selectedTeam].memberList[selectedMember].imageCount - 1">
+                            <div class="carousel-item"
+                                v-for="index in carouselMax-1">
                                 <img v-bind:src="getImagePath(index)" class="d-block w-100" v-on:error="" />
                             </div>
                         </div>
