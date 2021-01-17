@@ -80,7 +80,7 @@
         <div class="row" style="margin-bottom:10vh;">
             <div class="col-xs-12 col-sm-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 text-center">
                 <div class="card" style="margin-top:1em;">
-                    <h5 class="card-header headertext" contenteditable="true">{{ getCharacterName() }}</h5>
+                    <h5 class="card-header headertext">{{ getCharacterName() }}</h5>
                     <div class="card-body">
                         <div class="btn-group mb-2" role="group" aria-label="Basic example">
                             <button type="button" class="btn btn-dark active"
@@ -94,11 +94,8 @@
                                     <img v-bind:src="getThumbnailPath()" style="max-height:30vh;max-width: 100vw;"
                                         class="img-thumbnail" v-on:error=""/>
                                 </div>
-                                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 text-start" contenteditable="true">
+                                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 text-start">
                                     {{ getCharacterDescription() }}
-                                    <div>
-                                        <input id="input_test" type="text" placeholder="{Test Input...}" />
-                                    </div>
                                 </div>
                             </div>
                         </div>
