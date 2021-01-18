@@ -44,7 +44,7 @@
                                     data-bs-toggle="dropdown" aria-expanded="false" href="#">{{selectedStoryText}}
                                     <span class="caret"></span>
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="storyDropdown">
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="storyDropdown">
                                     <li v-for="(list, index) in storyList">
                                         <a class="dropdown-item" v-on:click="updateStory(index)">{{list.storyName}}</a>
                                     </li>
@@ -54,7 +54,7 @@
                                 <a class="nav-link dropdown-toggle" id="teamDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false" href="#">{{selectedTeamText}}
                                     <span class="caret"></span></a>
-                                <ul class="dropdown-menu" aria-labelledby="teamDropdown">
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="teamDropdown">
                                     <li v-for="(list, index) in storyList[selectedStory].teamList">
                                         <a class="dropdown-item" v-on:click="updateTeam(index)">{{list.teamName}}</a>
                                     </li>
@@ -64,7 +64,7 @@
                                 <a class="nav-link dropdown-toggle" id="memberDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false" href="#">{{selectedMemberText}}
                                     <span class="caret"></span></a>
-                                <ul class="dropdown-menu" aria-labelledby="memberDropdown">
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="memberDropdown">
                                     <li
                                         v-for="(list, index) in storyList[selectedStory].teamList[selectedTeam].memberList">
                                         <a class="dropdown-item"
