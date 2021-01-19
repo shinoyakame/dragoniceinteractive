@@ -1641,6 +1641,9 @@ new Vue({
                 return 'img/no_image.png';
             }
         },
+        showImage: function (index) {
+            window.location.href = this.getImagePath(index);
+        },
         getThumbnailPath: function () {
             var story = this.storyList[this.selectedStory];
             var team = story.teamList[this.selectedTeam];
@@ -1653,6 +1656,9 @@ new Vue({
             } else {
                 return this.getImagePath(0);//'img/no_image.png';
             }
+        },
+        showThumbnail: function () {
+            window.location.href = this.getThumbnailPath();
         },
         getCharacterName: function () {
             var story = this.storyList[this.selectedStory];
