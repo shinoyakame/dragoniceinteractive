@@ -82,11 +82,12 @@
                 <div class="card" style="margin-top:1em;">
                     <h5 class="card-header headertext" data-toggle="tooltip" v-bind:title="getCharacterNameTooltip()">{{ getCharacterName() }}</h5>
                     <div class="card-body">
-                        <div class="btn-group mb-2" role="group" aria-label="Basic example">
+                        <div class="btn-group mb-4" role="group" aria-label="Basic example">
                             <button type="button" class="btn btn-dark active"
                                 v-on:click="changeLanguage('TH')">TH</button>
                             <button type="button" class="btn btn-dark" v-on:click="changeLanguage('EN')">EN</button>
-                            <button type="button" class="btn btn-dark" v-on:click="changeLanguage('CN')">CN</button>
+                            <button type="button" class="btn btn-dark" v-on:click="changeLanguage('CN')">中文</button>
+                            <button type="button" class="btn btn-dark" v-on:click="changeLanguage('JP')">日本</button>
                         </div>
                         <div class="container">
                             <div class="row">

@@ -17,11 +17,13 @@ new Vue({
                                 characterName: "Cycle Dog",
                                 characterNameTH: "ไซเคิล ด็อก",
                                 characterNameCN: "雷期",
+                                characterNameJP: "犬北 時",
                                 characterNameCNToolTip: "เหลยชี",
                                 characterDescriptionTH: "หัวหน้าเวปอนมาสเตอร์รุ่นที่ 4 และรองหัวหน้าทีม ไซเคิลเป็นหลานของวีรบุรุษเซอคิท ผู้กอบกู้โลกจากคิงโครโนดราก้อน ราชามังกรปีศาจ ถุงมือวงจรเวทเป็นอาวุธในตำนานที่คุณปู่ให้ไซเคิลมา โดยไซเคิลจะต้องรวบรวมผู้พิทักษ์ทั้ง 5 คน เพื่อปลดผนึกดาบสั้น และพาเพื่อน ๆ ผ่านการทดสอบของผู้คุมโซนทั้ง 12 คน เพื่อปลดล็อคอาวุธในตำนานที่ทรงพลังที่สุด",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
-                                characterDescriptionCNTooltip: "คำอธิบาย",
+                                characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 2
@@ -34,7 +36,7 @@ new Vue({
                             //     characterDescriptionTH: "หัวหน้าทีมอะนิมมอลวอร์ ฉายา 'วิหคแห่งแสง' และ 'มังกรน้อย' ใช้เวทแสงในการต่อสู้",
                             //     characterDescriptionEN: "(description)",
                             //     characterDescriptionCN: "(描述)",
-                            //     characterDescriptionCNTooltip: "คำอธิบาย",
+                            //     characterDescriptionCNToolTip: "คำอธิบาย",
                             //     hasImage: true,
                             //     hasThumbnail: true,
                             //     imageCount: 1
@@ -47,7 +49,7 @@ new Vue({
                             //     characterDescriptionTH: "ร่างปีศาจในนิยายจะเรียกว่า 'มังกรแฝงร่าง' ใช้ได้เฉพาะกลุ่มเซเว่นวอนเดอร์",
                             //     characterDescriptionEN: "(description)",
                             //     characterDescriptionCN: "(描述)",
-                            //     characterDescriptionCNTooltip: "คำอธิบาย",
+                            //     characterDescriptionCNToolTip: "คำอธิบาย",
                             //     hasImage: true,
                             //     hasThumbnail: false,
                             //     imageCount: 1
@@ -67,10 +69,11 @@ new Vue({
                                 characterName: "Sky Hawk",
                                 characterNameTH: "สกาย ฮอค",
                                 characterNameCN: "-",
+                                characterNameJP: "スカイ ホーク",
                                 characterDescriptionTH: "พ่อครัวประจำทีม ใช้ธาตุเหล็กเป็นหลัก โจมตีทางกายภาพ",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
-                                characterDescriptionCNTooltip: "คำอธิบาย",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 1
@@ -79,10 +82,11 @@ new Vue({
                                 characterName: "Frost Polarbear",
                                 characterNameTH: "ฟรอสท์ โพลาร์แบร์",
                                 characterNameCN: "-",
+                                characterNameJP: "石雪 熊",
                                 characterDescriptionTH: "ผู้ใช้อาวุธต้องคำสาป 'ดาบมังกรดำ' ใช้ธาตุมืดและน้ำแข็ง สามารถจับจิตสังหารได้",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
-                                characterDescriptionCNTooltip: "คำอธิบาย",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 1
@@ -94,7 +98,7 @@ new Vue({
                                 characterDescriptionTH: "เพื่อนสมัยเด็กของเรย์ ใช้ธาตุมืดเป็นหลัก",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
-                                characterDescriptionCNTooltip: "คำอธิบาย",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 1
@@ -106,7 +110,7 @@ new Vue({
                             //     characterDescriptionTH: "ปรากฏตัวในนิยาย Animalwars Series x Detective Company",
                             //     characterDescriptionEN: "(description)",
                             //     characterDescriptionCN: "(描述)",
-                            //     characterDescriptionCNTooltip: "คำอธิบาย",
+                            //     characterDescriptionCNToolTip: "คำอธิบาย",
                             //     hasImage: true,
                             //     hasThumbnail: false,
                             //     imageCount: 1
@@ -118,7 +122,7 @@ new Vue({
                                 characterDescriptionTH: "ลูกสาวของวาดอร์ แอบชอบเรย์",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
-                                characterDescriptionCNTooltip: "คำอธิบาย",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 1
@@ -130,7 +134,7 @@ new Vue({
                                 characterDescriptionTH: "น้องชายคนเล็กของเรย์",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
-                                characterDescriptionCNTooltip: "คำอธิบาย",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 1
@@ -142,7 +146,7 @@ new Vue({
                                 characterDescriptionTH: "ผู้คุมโซนพิสเซส มีหน้าที่ทดสอบและดูแลไซเคิล",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
-                                characterDescriptionCNTooltip: "คำอธิบาย",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 1
@@ -154,7 +158,7 @@ new Vue({
                                 characterDescriptionTH: "ผู้คุมโซนแอเรียส มีหน้าที่ดูแลและทดสอบสกาย",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
-                                characterDescriptionCNTooltip: "คำอธิบาย",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 1
@@ -372,6 +376,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 1
@@ -527,6 +532,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: false,
                                 imageCount: 1
@@ -538,6 +544,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: false,
                                 imageCount: 1
@@ -549,6 +556,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: false,
                                 imageCount: 1
@@ -560,6 +568,7 @@ new Vue({
                                 characterDescriptionTH: "ชาวเนทูล่า การ์เด้นท์ ในนิยายภาครีเมคนั้นได้เฉลยว่าเป็นไลท์เตอร์ร่างเทวทูตปลอมตัวมา",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: false,
                                 imageCount: 1
@@ -571,6 +580,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: false,
                                 imageCount: 1
@@ -586,6 +596,7 @@ new Vue({
                                 characterDescriptionTH: "พระเอกตัวที่สามของเรื่อง เป็นราชาโลกใต้ดิน D Alternate",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 1
@@ -597,6 +608,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: false,
                                 imageCount: 1
@@ -638,6 +650,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 1
@@ -645,10 +658,13 @@ new Vue({
                             {
                                 characterName: "Lighter Fox (Angel Form)",
                                 characterNameTH: "ไลท์เตอร์ ฟ็อกซ์ (ร่างเทวทูต)",
-                                characterNameCN: "狐亮 (หูเลี่ยง)",
-                                characterDescriptionTH: "ไลท์เตอร์เป็นตุ๊กตา Remote ของ ไพรด์ ร่างนี้ปรากฏบ่อยที่สุดในนิยาย และมีความเป็นมิตรกว่าร่างอื่น ๆ",
+                                characterNameCN: "狐亮",
+                                characterNameJP: "犬亀 ライター",
+                                characterNameCNToolTip: "หูเลี่ยง",
+                                characterDescriptionTH: "ไลท์เตอร์เป็น Avatar ของนักเขียนนิยาย ร่างนี้ปรากฏบ่อยที่สุด และมีความเป็นมิตรกว่าร่างอื่น ๆ",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 1
@@ -693,6 +709,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 1
@@ -774,6 +791,7 @@ new Vue({
                                 characterDescriptionTH: "เขาเป็นอินทรีที่เติบโตมาในตระกูคฮอค คุณปู่ของสกายเก็บเอลิบอมได้ และตั้งชื่อย้อนตัวละครคำว่าโมบาย (Mobile) ซึ่งเป็นชื่อของโมบาย อีเกิ้ล (Mobile Eagle) พ่อที่แท้จริงของเอลิบอม ที่ตายไปแล้วตั้งแต่เอลิบอมยังเด็ก",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: false,
                                 imageCount: 1
@@ -870,6 +888,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 1
@@ -881,6 +900,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 1
@@ -892,6 +912,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 1
@@ -962,6 +983,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 1
@@ -973,6 +995,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 1
@@ -984,6 +1007,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: false,
                                 imageCount: 1
@@ -995,6 +1019,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: false,
                                 imageCount: 1
@@ -1017,10 +1042,12 @@ new Vue({
                         memberList: [{
                                 characterName: "Sune Monkey",
                                 characterNameTH: "ซุน มังกี้",
-                                characterNameCN: "孙火 (ซุนหวอ)",
+                                characterNameCN: "孙火",
+                                characterNameCNToolTip: "ซุนหวอ",
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 1
@@ -1032,6 +1059,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 1
@@ -1043,6 +1071,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 1
@@ -1050,10 +1079,12 @@ new Vue({
                             {
                                 characterName: "Zero Redpanda",
                                 characterNameTH: "ซีโร่ เรดแพนด้า",
-                                characterNameCN: "零堕 (หลิงตั้ว)",
+                                characterNameCN: "零堕",
+                                characterNameCNToolTip: "หลิงตั้ว",
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 1
@@ -1121,9 +1152,11 @@ new Vue({
                                 characterName: "Leno Wolf",
                                 characterNameTH: "เลโน่ วูล์ฟ",
                                 characterNameCN: "-",
+                                characterNameJP: "レーノ ウルフ",
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 1
@@ -1338,21 +1371,22 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: false,
                                 imageCount: 1
                             },
-                            {
-                                characterName: "Apollo Rabbit",
-                                characterNameTH: "อะพอลโล แรบบิท",
-                                characterNameCN: "-",
-                                characterDescriptionTH: "(คำอธิบาย)",
-                                characterDescriptionEN: "(description)",
-                                characterDescriptionCN: "(描述)",
-                                hasImage: true,
-                                hasThumbnail: false,
-                                imageCount: 1
-                            },
+                            // {
+                            //     characterName: "Apollo Rabbit",
+                            //     characterNameTH: "อะพอลโล แรบบิท",
+                            //     characterNameCN: "-",
+                            //     characterDescriptionTH: "(คำอธิบาย)",
+                            //     characterDescriptionEN: "(description)",
+                            //     characterDescriptionCN: "(描述)",
+                            //     hasImage: true,
+                            //     hasThumbnail: false,
+                            //     imageCount: 1
+                            // },
                             {
                                 characterName: "Shining Cheetah",
                                 characterNameTH: "ไชน์นิ่ง ชีต้าร์",
@@ -1360,6 +1394,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 1
@@ -1434,6 +1469,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: false,
                                 imageCount: 1
@@ -1445,6 +1481,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: false,
                                 imageCount: 1
@@ -1456,6 +1493,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: false,
                                 imageCount: 1
@@ -1504,6 +1542,7 @@ new Vue({
                             characterDescriptionTH: "(คำอธิบาย)",
                             characterDescriptionEN: "(description)",
                             characterDescriptionCN: "(描述)",
+                            characterDescriptionCNToolTip: "คำอธิบาย",
                             hasImage: true,
                             hasThumbnail: false,
                             imageCount: 1
@@ -1518,6 +1557,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: false,
                                 imageCount: 1
@@ -1529,6 +1569,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: false,
                                 imageCount: 1
@@ -1540,6 +1581,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: false,
                                 imageCount: 1
@@ -1551,6 +1593,7 @@ new Vue({
                                 characterDescriptionTH: "(คำอธิบาย)",
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
+                                characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
                                 hasThumbnail: false,
                                 imageCount: 1
@@ -1616,12 +1659,16 @@ new Vue({
             var team = story.teamList[this.selectedTeam];
             var member = team.memberList[this.selectedMember];
 
-            if (this.selectedLanguage == undefined || this.selectedLanguage == "TH") {
+            if (this.selectedLanguage == undefined || (this.selectedLanguage == "TH" && member.characterNameTH)) {
                 return member.characterNameTH;
-            } else if (this.selectedLanguage == "EN") {
+            } else if (this.selectedLanguage == "EN" && member.characterName) {
                 return member.characterName;
-            } else if (this.selectedLanguage == "CN") {
+            } else if (this.selectedLanguage == "CN" && member.characterNameCN) {
                 return member.characterNameCN;
+            } else if (this.selectedLanguage == "JP" && member.characterNameJP) {
+                return member.characterNameJP;
+            } else {
+                return "-";
             }
         },
         getCharacterNameTooltip: function(){
@@ -1639,20 +1686,24 @@ new Vue({
             var team = story.teamList[this.selectedTeam];
             var member = team.memberList[this.selectedMember];
 
-            if (this.selectedLanguage == undefined || this.selectedLanguage == "TH") {
+            if (this.selectedLanguage == undefined || (this.selectedLanguage == "TH" && member.characterDescriptionTH)) {
                 return member.characterDescriptionTH;
-            } else if (this.selectedLanguage == "EN") {
+            } else if (this.selectedLanguage == "EN" && member.characterDescriptionEN) {
                 return member.characterDescriptionEN;
-            } else if (this.selectedLanguage == "CN") {
+            } else if (this.selectedLanguage == "CN" && member.characterDescriptionCN) {
                 return member.characterDescriptionCN;
+            } else if (this.selectedLanguage == "JP" && member.characterDescriptionJP) {
+                return member.characterDescriptionJP;
+            } else {
+                return "-";
             }
         },
         getCharacterDescriptionTooltip: function(){
             var story = this.storyList[this.selectedStory];
             var team = story.teamList[this.selectedTeam];
             var member = team.memberList[this.selectedMember];
-            if(this.selectedLanguage == "CN" && member.characterDescriptionCNTooltip != undefined){
-                return member.characterDescriptionCNTooltip;
+            if(this.selectedLanguage == "CN" && member.characterDescriptionCNToolTip != undefined){
+                return member.characterDescriptionCNToolTip;
             }else{
                 return "";
             }
