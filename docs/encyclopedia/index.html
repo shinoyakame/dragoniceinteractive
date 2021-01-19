@@ -93,7 +93,8 @@
                             <div class="row">
                                 <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 mb-3">
                                     <img v-bind:src="getThumbnailPath()" style="max-height:30vh;max-width: 100vw;"
-                                        class="img-thumbnail" v-on:error=""/>
+                                        class="img-thumbnail" v-on:error=""
+                                        data-bs-toggle="modal" data-bs-target="#thumbnailModal"/>
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 text-start"
                                 data-toggle="tooltip" v-bind:title="getCharacterDescriptionTooltip()">
@@ -111,11 +112,13 @@
 
                         <div class="carousel-inner" style="height:70vh;">
                             <div class="carousel-item active">
-                                <img v-bind:src="getImagePath(0)" class="d-block imp mx-auto" v-on:error="" />
+                                <img v-bind:src="getImagePath(0)" class="d-block imp mx-auto" v-on:error=""
+                                data-bs-toggle="modal" data-bs-target="#imageModal" />
                             </div>
 
                             <div class="carousel-item" v-for="index in carouselMax-1">
-                                <img v-bind:src="getImagePath(index)" class="d-block imp mx-auto" v-on:error="" />
+                                <img v-bind:src="getImagePath(index)" class="d-block imp mx-auto" v-on:error=""
+                                data-bs-toggle="modal" data-bs-target="#imageModal" />
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
@@ -141,7 +144,35 @@
                 <span class="mx-auto">Copyright © 2020 Shinoyakame (Rattanapol Teankachon), All right reserved.</span>
             </div>
         </div>
+        <div class="modal fade" id="thumbnailModal" tabindex="-1" aria-labelledby="thumbnailModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="thumbnailModalLabel">{{ getCharacterName() }}</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img v-bind:src="getThumbnailPath()" style="max-height:30vh;max-width: 100vw;"
+                    class="img-thumbnail" v-on:error=""/>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="imageModalLabel">{{ getCharacterName() }}</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img v-bind:src="getImagePath(0)" class="d-block imp mx-auto" v-on:error="" />
+                </div>
+              </div>
+            </div>
+          </div>
     </div>
+    
     <script src='./data/data.js'></script>
     <script type="text/javascript">
         $(window).on("load", function () {
