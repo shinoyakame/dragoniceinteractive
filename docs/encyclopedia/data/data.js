@@ -18,7 +18,7 @@ new Vue({
                                 characterNameTH: "ไซเคิล ด็อก",
                                 characterNameCN: "雷期",
                                 characterNameJP: "犬北 時",
-                                characterNameCNToolTip: "เหลยชี",
+                                characterNameCNToolTip: "Léi qī",
                                 characterDescriptionTH: `
                                 <div class="text-success">
                                     <h6 class="fw-bold">ข้อมูลตัวละครเบื้องต้น</h6>
@@ -92,8 +92,21 @@ new Vue({
                                 <hr/>
                                 Cycle met with King Quantum Arther.
                                 `,
-                                characterDescriptionCN: "(描述)",
-                                characterDescriptionCNToolTip: "คำอธิบาย",
+                                characterDescriptionCN: `
+                                <div class="text-success">
+                                    <h6 class="fw-bold">人物介绍</h6>
+                                </div>
+                                雷期是主角人物。他是十四岁狗狗。
+                                `,
+                                characterDescriptionCNToolTip: `
+                                Rénwù jièshào, Léi qī shì zhǔjiǎo rénwù. Tā shì shísì suì gǒu gǒu.
+                                `,
+                                characterDescriptionJP: `
+                                <div class="text-success">
+                                    <h6 class="fw-bold">キャラインフォ</h6>
+                                </div>
+                                「犬北 時」このキャラは… えと… 日本語が私を書けないですwww。
+                                `,
                                 hasImage: true,
                                 hasThumbnail: true,
                                 imageCount: 2
