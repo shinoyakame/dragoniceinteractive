@@ -19,9 +19,79 @@ new Vue({
                                 characterNameCN: "雷期",
                                 characterNameJP: "犬北 時",
                                 characterNameCNToolTip: "เหลยชี",
-                                characterDescriptionTH: "หัวหน้าเวปอนมาสเตอร์รุ่นที่ 4 และรองหัวหน้าทีม ไซเคิลเป็นหลานของวีรบุรุษเซอคิท ผู้กอบกู้โลกจากคิงโครโนดราก้อน ราชามังกรปีศาจ ถุงมือวงจรเวทเป็นอาวุธในตำนานที่คุณปู่ให้ไซเคิลมา โดยไซเคิลจะต้องรวบรวมผู้พิทักษ์ทั้ง 5 คน เพื่อปลดผนึกดาบสั้น และพาเพื่อน ๆ ผ่านการทดสอบของผู้คุมโซนทั้ง 12 คน เพื่อปลดล็อคอาวุธในตำนานที่ทรงพลังที่สุด",
-                                characterDescriptionEN: "(description)",
-                                characterDescriptionCN: "(描述)",
+                                characterDescriptionTH: `
+                                <div class="text-success">
+                                    <h6 class="fw-bold">ข้อมูลตัวละครเบื้องต้น</h6>
+                                </div>
+                                <ul>
+                                    <li>ตัวเอกของเรื่อง</li>
+                                    <li>ผู้ใช้อาวุธสายไอเทม ใช้ระเบิดเป็นอาวุธ</li>
+                                </ul>
+                                <div class="pt-2 text-danger">
+                                    <h6 class="fw-bold">Chapter 1 : Sand Dust Battle</h6>
+                                </div>
+                                <hr/>
+                                ไซเคิลเป็นนักศึกษาจบใหม่จากสถาบันผู้ใช้อาวุธเมืองสแควร์
+                                 และเป็นรองหัวหน้าทีมผู้ใช้อาวุธ "แอนิมอลวอร์" เขาได้รับภารกิจ
+                                 ให้เข้าร่วมการต่อสู้ที่เมืองแซนดัสค์
+                                <div class="pt-4 text-info">
+                                    <h6 class="fw-bold">Chapter 2 : Gravity Island</h6>
+                                </div>
+                                <hr/>
+                                ภารกิจที่สองเป็นการปกป้องราชาวานรเพลิง จากจักรวรรดิ์คีโลเนีย
+                                 ที่นครลอยฟ้า
+                                <div class="pt-4 text-warning">
+                                    <h6 class="fw-bold">Chapter 3 : Junior Battle Festival</h6>
+                                </div>
+                                <hr/>
+                                ไซเคิลเข้าร่วมการแข่งขันประลองเวท ก่อนถูกผู้คุมโซนไซโตนำตัวออกไป
+                                กลางคัน เพื่อเตรียมรับมือกับไลท์เตอร์
+                                <div class="pt-4 text-primary">
+                                    <h6 class="fw-bold">Chapter Zero : Casino Town</h6>
+                                </div>
+                                <hr/>
+                                ไซเคิลเข้าร่วมการแข่งขัน E-sport ที่เมืองคาสิโน
+                                <div class="pt-4 text-secondary">
+                                    <h6 class="fw-bold">Chapter D : Dimension Alternate</h6>
+                                </div>
+                                <hr/>
+                                ไซเคิลพบกับราชาโลกใต้ดินคิงควอนตัมอาเธอร์
+                                `,
+                                characterDescriptionEN: `
+                                <div class="text-success">
+                                    <h6 class="fw-bold">Character Info</h6>
+                                </div>
+                                <ul>
+                                    <li>Main Protagonist</li>
+                                    <li>Class: Item, Weapon: Bomb</li>
+                                </ul>
+                                <div class="pt-2 text-danger">
+                                    <h6 class="fw-bold">Chapter 1 : Sand Dust Battle</h6>
+                                </div>
+                                <hr/>
+                                Cycle is a fresh graduated student from 'Square Weapon Master Academy'.
+                                 He is 'Animalwars Team' Pre-leader, got a request joining the battle at Sand Dust Town.
+                                <div class="pt-4 text-info">
+                                    <h6 class="fw-bold">Chapter 2 : Gravity Island</h6>
+                                </div>
+                                <hr/>
+                                His second request is to protect Fire Monkey King from Chelonia Empire at Gravity Island.
+                                <div class="pt-4 text-warning">
+                                    <h6 class="fw-bold">Chapter 3 : Junior Battle Festival</h6>
+                                </div>
+                                <hr/>
+                                Cycle joined Junior Battle Festival, then was forced leaving by Saito to prepare the battle with Lighter.
+                                <div class="pt-4 text-primary">
+                                    <h6 class="fw-bold">Chapter Zero : Casino Town</h6>
+                                </div>
+                                <hr/>
+                                Cycle joined E-sport event at Casino Town.
+                                <div class="pt-4 text-secondary">
+                                    <h6 class="fw-bold">Chapter D : Dimension Alternate</h6>
+                                </div>
+                                <hr/>
+                                Cycle met with King Quantum Arther.
+                                `,
                                 characterDescriptionCN: "(描述)",
                                 characterDescriptionCNToolTip: "คำอธิบาย",
                                 hasImage: true,
@@ -590,8 +660,8 @@ new Vue({
                     {
                         teamName: "D Alternate",
                         memberList: [{
-                                characterName: "King Quantum",
-                                characterNameTH: "คิงควอนตัม",
+                                characterName: "King Quantum Arther",
+                                characterNameTH: "คิงควอนตัมอาเธอร์",
                                 characterNameCN: "-",
                                 characterDescriptionTH: "พระเอกตัวที่สามของเรื่อง เป็นราชาโลกใต้ดิน D Alternate",
                                 characterDescriptionEN: "(description)",
@@ -1466,7 +1536,15 @@ new Vue({
                                 characterName: "Glacier Ice Dragon",
                                 characterNameTH: "กราเซีย ไอซ์ ดราก้อน",
                                 characterNameCN: "-",
-                                characterDescriptionTH: "(คำอธิบาย)",
+                                characterDescriptionTH: `
+                                <div class="text-success">
+                                    <h6 class="fw-bold">ข้อมูลตัวละครเบื้องต้น</h6>
+                                </div>
+                                <ul>
+                                    <li>ตัวละครจากเกม Dragon Ice Bubble</li>
+                                    <li>ปัจจุบันเกมถูกนำออกจากสโตร์เนื่องจากไม่ได้อัพเดดเวอร์ชั่นให้ซัพพอร์ต 64 bit</li>
+                                </ul>
+                                `,
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
                                 characterDescriptionCNToolTip: "คำอธิบาย",
@@ -1478,7 +1556,15 @@ new Vue({
                                 characterName: "Messe Human",
                                 characterNameTH: "เมสซี่ ฮิวแมน",
                                 characterNameCN: "-",
-                                characterDescriptionTH: "(คำอธิบาย)",
+                                characterDescriptionTH: `
+                                <div class="text-success">
+                                    <h6 class="fw-bold">ข้อมูลตัวละครเบื้องต้น</h6>
+                                </div>
+                                <ul>
+                                    <li>ตัวละครจากเกม Dragon Ice Bubble</li>
+                                    <li>ปัจจุบันเกมถูกนำออกจากสโตร์เนื่องจากไม่ได้อัพเดดเวอร์ชั่นให้ซัพพอร์ต 64 bit</li>
+                                </ul>
+                                `,
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
                                 characterDescriptionCNToolTip: "คำอธิบาย",
@@ -1490,7 +1576,15 @@ new Vue({
                                 characterName: "Alpaca Cat",
                                 characterNameTH: "อัลปาก้า แคท",
                                 characterNameCN: "-",
-                                characterDescriptionTH: "(คำอธิบาย)",
+                                characterDescriptionTH: `
+                                <div class="text-success">
+                                    <h6 class="fw-bold">ข้อมูลตัวละครเบื้องต้น</h6>
+                                </div>
+                                <ul>
+                                    <li>ตัวละครจากเกม Dragon Ice Bubble</li>
+                                    <li>ปัจจุบันเกมถูกนำออกจากสโตร์เนื่องจากไม่ได้อัพเดดเวอร์ชั่นให้ซัพพอร์ต 64 bit</li>
+                                </ul>
+                                `,
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
                                 characterDescriptionCNToolTip: "คำอธิบาย",
@@ -1539,7 +1633,16 @@ new Vue({
                             characterName: "MarkII Cat",
                             characterNameTH: "มาร์คทู แคท",
                             characterNameCN: "-",
-                            characterDescriptionTH: "(คำอธิบาย)",
+                            characterDescriptionTH: `
+                            <div class="text-success">
+                                <h6 class="fw-bold">ข้อมูลตัวละครเบื้องต้น</h6>
+                            </div>
+                            <ul>
+                                <li>ตัวละครจากเกม Error Identification</li>
+                                <li><a href="https://shinoyakame.github.io/erroridentificationweb/">เล่นเกมบน web ที่นี่</a></li>
+                                <li><a href="https://play.google.com/store/apps/details?id=com.DragonIceInteractive.ErrorIdentification">เล่นเกมบน mobile ที่นี่</a></li>
+                            </ul>
+                            `,
                             characterDescriptionEN: "(description)",
                             characterDescriptionCN: "(描述)",
                             characterDescriptionCNToolTip: "คำอธิบาย",
@@ -1554,7 +1657,14 @@ new Vue({
                                 characterName: "Anubis Jackal",
                                 characterNameTH: "อนูบิส แจ็คกัล",
                                 characterNameCN: "-",
-                                characterDescriptionTH: "(คำอธิบาย)",
+                                characterDescriptionTH: `
+                                <div class="text-success">
+                                    <h6 class="fw-bold">ข้อมูลตัวละครเบื้องต้น</h6>
+                                </div>
+                                <ul>
+                                    <li>ตัวละครจากรายวิชาประวัติศาสตร์เพื่อการออกแบบเกม</li>
+                                </ul>
+                                `,
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
                                 characterDescriptionCNToolTip: "คำอธิบาย",
@@ -1566,7 +1676,14 @@ new Vue({
                                 characterName: "Bastet Cat",
                                 characterNameTH: "บาสเตต แคท",
                                 characterNameCN: "-",
-                                characterDescriptionTH: "(คำอธิบาย)",
+                                characterDescriptionTH: `
+                                <div class="text-success">
+                                    <h6 class="fw-bold">ข้อมูลตัวละครเบื้องต้น</h6>
+                                </div>
+                                <ul>
+                                    <li>ตัวละครจากรายวิชาประวัติศาสตร์เพื่อการออกแบบเกม</li>
+                                </ul>
+                                `,
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
                                 characterDescriptionCNToolTip: "คำอธิบาย",
@@ -1578,7 +1695,14 @@ new Vue({
                                 characterName: "Horus Hawk",
                                 characterNameTH: "ฮอรัส ฮอค",
                                 characterNameCN: "-",
-                                characterDescriptionTH: "(คำอธิบาย)",
+                                characterDescriptionTH: `
+                                <div class="text-success">
+                                    <h6 class="fw-bold">ข้อมูลตัวละครเบื้องต้น</h6>
+                                </div>
+                                <ul>
+                                    <li>ตัวละครจากรายวิชาประวัติศาสตร์เพื่อการออกแบบเกม</li>
+                                </ul>
+                                `,
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
                                 characterDescriptionCNToolTip: "คำอธิบาย",
@@ -1590,7 +1714,14 @@ new Vue({
                                 characterName: "Sobek Crocodile",
                                 characterNameTH: "โซเบค คร็อกโคไดล์",
                                 characterNameCN: "-",
-                                characterDescriptionTH: "(คำอธิบาย)",
+                                characterDescriptionTH: `
+                                <div class="text-success">
+                                    <h6 class="fw-bold">ข้อมูลตัวละครเบื้องต้น</h6>
+                                </div>
+                                <ul>
+                                    <li>ตัวละครจากรายวิชาประวัติศาสตร์เพื่อการออกแบบเกม</li>
+                                </ul>
+                                `,
                                 characterDescriptionEN: "(description)",
                                 characterDescriptionCN: "(描述)",
                                 characterDescriptionCNToolTip: "คำอธิบาย",
