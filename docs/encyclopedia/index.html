@@ -9,7 +9,7 @@
     <meta content='http://github.dragoniceinteractive.com/' property='og:url' />
     <meta content='Dragon Ice Interactive Encyclopedia' property='og:title' />
     <meta content="Collections of Dragon Ice Interactive" property='og:description' />
-    <meta content='img/blue_background.png' property='og:image' />
+    <meta content='img/back_cover.png' property='og:image' />
     <title>
         Dragon Ice Interactive Encyclopedia
     </title>
@@ -109,11 +109,11 @@
 
                         <div class="carousel-inner" style="height:70vh;">
                             <div class="carousel-item active">
-                                <img v-bind:src="getImagePath(0)" class="d-block w-100" v-on:error="" />
+                                <img v-bind:src="getImagePath(0)" class="d-block imp mx-auto" v-on:error="" />
                             </div>
 
                             <div class="carousel-item" v-for="index in carouselMax-1">
-                                <img v-bind:src="getImagePath(index)" class="d-block w-100" v-on:error="" />
+                                <img v-bind:src="getImagePath(index)" class="d-block imp mx-auto" v-on:error="" />
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
