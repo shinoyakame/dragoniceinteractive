@@ -74,7 +74,11 @@ const resize = () => {
             ctx.fillText(indexString, _xStart, _yStart + 100 + lineHeight);
         }
         
-        ctx.fillStyle = 'black';
+        if (node.deprecated) {
+            ctx.fillStyle = 'red';
+        } else {
+            ctx.fillStyle = 'black';
+        }
         ctx.font = "11px Arial";
         ctx.fillText(node.name, _xStart, _yStart + 100 + (lineHeight * 2));
     })

@@ -26,7 +26,7 @@ var characterInfo = [{
     power: 399000
 }, {
     id: 3,
-    name: 'Lighter Fox (Tox)',
+    name: 'Lighter Fennec (Tox)',
     imageUrl: './img/character/003.png',
     power: 1228000
 }, {
@@ -68,7 +68,7 @@ var characterInfo = [{
     id: 11,
     name: 'Sky Hawk (W)',
     imageUrl: './img/character/011.png',
-    power: 172500
+    power: 162500
 }, {
     id: 12,
     name: 'Nill Cat',
@@ -178,7 +178,7 @@ var characterInfo = [{
     id: 33,
     name: 'Sune Monkey',
     imageUrl: './img/character/033.png',
-    power: 200450
+    power: 160450
 }, {
     id: 34,
     name: 'Crimson Beetle',
@@ -303,7 +303,8 @@ var characterInfo = [{
     id: 58,
     name: 'Rildo Rabbit',
     imageUrl: './img/character/058.png',
-    power: 600
+    power: 600,
+    deprecated: true
 }, {
     id: 59,
     name: 'Apollo Rabbit',
@@ -413,7 +414,8 @@ var characterInfo = [{
     id: 80,
     name: 'Kmkadm Camel',
     imageUrl: './img/ni.png',
-    power: 50
+    power: 50,
+    deprecated: true
 }, {
     id: 81,
     name: 'Spinal Lionsea',
@@ -422,7 +424,7 @@ var characterInfo = [{
 }, {
     id: 82,
     name: 'Ruth Rat',
-    imageUrl: './img/ni.png',
+    imageUrl: './img/character/082.png',
     power: 120000
 }, {
     id: 83,
@@ -463,7 +465,7 @@ var characterInfo = [{
     id: 90,
     name: 'Elibom Hawk',
     imageUrl: './img/character/090.png',
-    power: 173000
+    power: 185000
 }, {
     id: 91,
     name: 'Mobile Eagle',
@@ -508,12 +510,12 @@ var characterInfo = [{
     id: 98,
     name: 'Spark Dog',
     imageUrl: './img/character/098.png',
-    power: 130000
+    power: 180000
 }, {
     id: 99,
     name: 'Sharp Wolf',
     imageUrl: './img/character/099.png',
-    power: 130000
+    power: 150000
 }, {
     id: 100,
     name: 'Rod Polarbear',
@@ -638,7 +640,8 @@ var characterInfo = [{
     id: 124,
     name: 'Hiphip Hippo',
     imageUrl: './img/ni.png',
-    power: 32200
+    power: 32200,
+    deprecated: true
 }, {
     id: 125,
     name: 'Beaker Cat',
@@ -883,7 +886,7 @@ var characterInfo = [{
     id: 173,
     name: 'Vador Cat',
     imageUrl: './img/character/173.png',
-    power: 158200
+    power: 167100
 }, {
     id: 174,
     name: 'MarkII Cat',
@@ -934,6 +937,31 @@ var characterInfo = [{
     name: 'Punchz Cat',
     imageUrl: './img/character/183.png',
     power: 12200
+}, {
+    id: 184,
+    name: 'Mission Eagle',
+    imageUrl: './img/ni.png',
+    power: 37000
+}, {
+    id: 185,
+    name: 'Big Bull',
+    imageUrl: './img/ni.png',
+    power: 33000
+}, {
+    id: 186,
+    name: 'My Rabbit',
+    imageUrl: './img/ni.png',
+    power: 15200
+}, {
+    id: 187,
+    name: 'Saki Cat',
+    imageUrl: './img/ni.png',
+    power: 21200
+}, {
+    id: 188,
+    name: 'Topaz Beagle',
+    imageUrl: './img/ni.png',
+    power: 161000
 }];
 
 function initCharacterInfo() {
