@@ -28,7 +28,7 @@ var characterInfo = [{
     id: 3,
     name: 'Lighter Fennec (Tox)',
     imageUrl: './img/character/003.png',
-    power: 1228000
+    power: 680000
 }, {
     id: 4,
     name: 'King Q.Arthur',
@@ -141,7 +141,7 @@ var characterInfo = [{
     power: 161500
 }, {
     id: 26,
-    name: 'Chen Dog',
+    name: 'Chain Dog',
     imageUrl: './img/character/026.png',
     power: 86500
 }, {
@@ -492,11 +492,6 @@ var characterInfo = [{
     imageUrl: './img/character/095.png',
     power: 440
 }, {
-    id: 95,
-    name: 'Diamond Dog',
-    imageUrl: './img/character/095.png',
-    power: 440
-}, {
     id: 96,
     name: 'Paper Owl',
     imageUrl: './img/character/096.png',
@@ -681,7 +676,7 @@ var characterInfo = [{
     id: 132,
     name: 'Envy Dragon',
     imageUrl: './img/character/132.png',
-    power: 680000
+    power: 1228000
 }, {
     id: 133,
     name: 'Ifris',
@@ -704,7 +699,7 @@ var characterInfo = [{
     power: 9100
 }, {
     id: 137,
-    name: 'Plum Rabbit',
+    name: 'Plub Rabbit',
     imageUrl: './img/character/137.png',
     power: 8900
 }, {
@@ -824,9 +819,9 @@ var characterInfo = [{
     power: 41000
 }, {
     id: 161,
-    name: 'Bigbang Redpandog',
+    name: 'Bigbang Dog',
     imageUrl: './img/character/161.png',
-    power: 300000
+    power: 600000
 }, {
     id: 162,
     name: 'Mil Tiger',
@@ -876,15 +871,17 @@ var characterInfo = [{
     id: 171,
     name: 'Horus Hawk',
     imageUrl: './img/character/171.png',
-    power: 52000
+    power: 52000,
+    deprecated: true
 }, {
     id: 172,
     name: 'Sobek Crocodile',
     imageUrl: './img/character/172.png',
-    power: 24000
+    power: 24000,
+    deprecated: true
 }, {
     id: 173,
-    name: 'Vador Cat',
+    name: 'Vadore Cat',
     imageUrl: './img/character/173.png',
     power: 167100
 }, {
@@ -896,7 +893,8 @@ var characterInfo = [{
     id: 175,
     name: 'Messe',
     imageUrl: './img/character/175.png',
-    power: 82500
+    power: 82500,
+    deprecated: true
 }, {
     id: 176,
     name: 'Glacier I.Dragon',
@@ -906,7 +904,8 @@ var characterInfo = [{
     id: 177,
     name: 'Alpaca Cat',
     imageUrl: './img/character/177.png',
-    power: 32100
+    power: 32100,
+    deprecated: true
 }, {
     id: 178,
     name: 'Hedro Hydra',
@@ -921,22 +920,26 @@ var characterInfo = [{
     id: 180,
     name: 'Livo Squirrel',
     imageUrl: './img/character/180.png',
-    power: 10000
+    power: 10000,
+    deprecated: true
 }, {
     id: 181,
     name: 'Shamant Squirrel',
     imageUrl: './img/character/181.png',
-    power: 7500
+    power: 7500,
+    deprecated: true
 }, {
     id: 182,
     name: 'Musica Cat',
     imageUrl: './img/character/182.png',
-    power: 14500
+    power: 14500,
+    deprecated: true
 }, {
     id: 183,
     name: 'Punchz Cat',
     imageUrl: './img/character/183.png',
-    power: 12200
+    power: 12200,
+    deprecated: true
 }, {
     id: 184,
     name: 'Mission Eagle',
@@ -962,6 +965,21 @@ var characterInfo = [{
     name: 'Topaz Beagle',
     imageUrl: './img/ni.png',
     power: 161000
+}, {
+    id: 189,
+    name: 'Money Redpanda',
+    imageUrl: './img/ni.png',
+    power: 51000
+}, {
+    id: 190,
+    name: 'Leaf Dog',
+    imageUrl: './img/ni.png',
+    power: 50000
+}, {
+    id: 191,
+    name: 'Quark Shepherd',
+    imageUrl: './img/ni.png',
+    power: 165000
 }];
 
 function initCharacterInfo() {
