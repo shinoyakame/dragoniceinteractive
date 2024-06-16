@@ -23,7 +23,7 @@ var characterInfo = [{
     id: 2,
     name: 'Zero Redpanda',
     imageUrl: './img/character/002.png',
-    power: 399000
+    power: 620000
 }, {
     id: 3,
     name: 'Lighter Fennec (Tox)',
@@ -483,9 +483,9 @@ var characterInfo = [{
     power: 92000
 }, {
     id: 94,
-    name: 'Black Dragon Sword',
-    imageUrl: './img/ni.png',
-    power: 69500
+    name: 'Darklord Polarbear',
+    imageUrl: './img/character/094.png',
+    power: 335000
 }, {
     id: 95,
     name: 'Diamond Dog',
@@ -629,8 +629,8 @@ var characterInfo = [{
 }, {
     id: 123,
     name: 'Father Tortoise (Cl)',
-    imageUrl: './img/ni.png',
-    power: 201200
+    imageUrl: './img/character/123.png',
+    power: 625000
 }, {
     id: 124,
     name: 'Hiphip Hippo',
@@ -770,8 +770,8 @@ var characterInfo = [{
 }, {
     id: 151,
     name: 'Noc Ferret',
-    imageUrl: './img/ni.png',
-    power: 171200
+    imageUrl: './img/character/151.png',
+    power: 250000
 }, {
     id: 152,
     name: 'Rom (Merlin Dog)',
@@ -980,6 +980,46 @@ var characterInfo = [{
     name: 'Quark Shepherd',
     imageUrl: './img/ni.png',
     power: 165000
+}, {
+    id: 192,
+    name: 'Argus Hawk',
+    imageUrl: './img/character/192.png',
+    power: 265000
+}, {
+    id: 193,
+    name: 'Morty Beaver',
+    imageUrl: './img/character/193.png',
+    power: 160000
+}, {
+    id: 194,
+    name: 'Arcania Wolf',
+    imageUrl: './img/character/194.png',
+    power: 300000
+}, {
+    id: 195,
+    name: 'Calibur Dog',
+    imageUrl: './img/character/195.png',
+    power: 171500
+}, {
+    id: 196,
+    name: 'Wiz Tortoise',
+    imageUrl: './img/character/196.png',
+    power: 210000
+}, {
+    id: 197,
+    name: 'Noir Owl',
+    imageUrl: './img/character/197.png',
+    power: 172000
+}, {
+    id: 198,
+    name: 'Potter Dog',
+    imageUrl: './img/character/198.png',
+    power: 167500
+}, {
+    id: 199,
+    name: 'Vein Monkey',
+    imageUrl: './img/character/199.png',
+    power: 168000
 }];
 
 function initCharacterInfo() {
