@@ -1012,7 +1012,7 @@ var characterInfo = [{
     power: 172000
 }, {
     id: 198,
-    name: 'Potter Dog',
+    name: 'Putter Dog',
     imageUrl: './img/character/198.png',
     power: 167500
 }, {
