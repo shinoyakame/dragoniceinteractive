@@ -18,8 +18,13 @@ function nextQuiz() {
         endQuiz();
     } else {
         currentQuiz = quizQueue.shift();
-        $('#txtScore').text(currentScore + ' / ' + totalQuiz);
-        $('#quizTitle').text(currentQuiz.quiz);
+        currentQuizIndex++;
+        let percent = 100;
+        if (currentQuizIndex - 1 > 0) {
+            percent = Math.round(currentScore * 100 / (currentQuizIndex - 1));
+        }
+        $('#txtScore').text(`${currentScore} / ${currentQuizIndex - 1} (${percent}%) Total Quiz: ${totalQuiz}`);
+        $('#quizTitle').text(`(${currentQuizIndex}). ${currentQuiz.quiz}`);
         currentQuiz.choices.forEach((item, index) => {
             $(`#choice${index + 1}`).text(item);
         });
