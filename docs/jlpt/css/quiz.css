@@ -1,0 +1,63 @@
+body {
+    background-image: url('../img/back_cover.png');
+    background-size: cover;
+}
+
+body > div:nth-child(1) {
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+    background: black;
+    z-index: -999;
+}
+
+body > div:nth-child(2) {
+    height: 100vh;
+    width: 100vw;
+}
+
+.btn-one {
+    background-color: aliceblue;
+    border: 3px solid #14c40b;
+    box-shadow: rgb(37, 179, 115) 0px 0px 2px 2px;
+}
+
+    .btn-one:hover {
+        background-color: #fffc30;
+        font-weight: bold;
+    }
+
+.btn-two {
+    background-color: aliceblue;
+    border: 3px solid #c40b0b;
+    box-shadow: rgb(179, 37, 80) 0px 0px 2px 2px;
+}
+
+    .btn-two:hover {
+        background-color: #ff7130;
+        font-weight: bold;
+    }
+
+.btn-three {
+    background-color: aliceblue;
+    border: 3px solid #6e3123;
+    box-shadow: rgb(179, 113, 37) 0px 0px 2px 2px;
+}
+
+    .btn-three:hover {
+        background-color: #6e3123;
+        color: white;
+        font-weight: bold;
+    }
+
+.btn-four {
+    background-color: aliceblue;
+    border: 3px solid #312f42;
+    box-shadow: rgb(37, 52, 179) 0px 0px 2px 2px;
+}
+
+    .btn-four:hover {
+        background-color: #312f42;
+        color: white;
+        font-weight: bold;
+    }
