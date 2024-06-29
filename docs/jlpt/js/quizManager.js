@@ -5,6 +5,11 @@ let quizQueue = [];
 let currentQuiz = {};
 let stateReady = false;
 
+let correctNotifyInterval = null;
+let intervalStepMilliSecond = 10;
+let correctTimeOffset = 0; // 0 mean not showing
+let correctShowTimeInSeconds = 5;
+
 function startQuiz() {
     // reset
     quizQueue = [];
@@ -42,12 +47,26 @@ function submitAnswer(answer) {
     if (!stateReady) return;
     stateReady = false;
     if (answer == currentQuiz.correct) {
-        alert(`Correct! The answer is [${currentQuiz.choices[currentQuiz.correct - 1]}]`);
+        triggerCorrectNotify();
+        //alert(`Correct! The answer is [${currentQuiz.choices[currentQuiz.correct - 1]}]`);
         currentScore += 1;
         nextQuiz();
     } else {
         alert(`Wrong answer: the correct one is [${currentQuiz.choices[currentQuiz.correct - 1]}]`);
         nextQuiz();
+    }
+}
+
+function triggerCorrectNotify() {
+    correctTimeOffset = correctShowTimeInSeconds; // show text
+}
+
+function correctOpacityInterval() {
+    let percent = correctTimeOffset / correctShowTimeInSeconds;
+    $('#txtPreviousQuestionStatus').css('opacity', percent);
+    correctTimeOffset -= (intervalStepMilliSecond / 1000);
+    if (correctTimeOffset < 0) {
+        correctTimeOffset = 0;
     }
 }
 
@@ -59,5 +78,8 @@ function endQuiz() {
 }
 
 $(document).ready(() => {
+    correctNotifyInterval = setInterval(() => {
+        correctOpacityInterval();
+    }, intervalStepMilliSecond)
     startQuiz();
 });
