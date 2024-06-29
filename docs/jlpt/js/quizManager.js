@@ -6,9 +6,15 @@ let currentQuiz = {};
 let stateReady = false;
 
 function startQuiz() {
-    while(quizData.length > 0) {
-        let index = Math.floor(Math.random() * quizData.length);
-        quizQueue.push(quizData.splice(index, 1)[0]);
+    // reset
+    quizQueue = [];
+    currentQuizIndex = 0;
+    currentScore = 0;
+
+    let cloneQuiz = [...quizData];
+    while(cloneQuiz.length > 0) {
+        let index = Math.floor(Math.random() * cloneQuiz.length);
+        quizQueue.push(cloneQuiz.splice(index, 1)[0]);
     }
     nextQuiz();
 }
@@ -21,7 +27,7 @@ function nextQuiz() {
         currentQuizIndex++;
         let percent = 100;
         if (currentQuizIndex - 1 > 0) {
-            percent = Math.round(currentScore * 100 / (currentQuizIndex - 1));
+            percent = Math.floor(currentScore * 100 / (currentQuizIndex - 1));
         }
         $('#txtScore').text(`${currentScore} / ${currentQuizIndex - 1} (${percent}%) Total Quiz: ${totalQuiz}`);
         $('#quizTitle').text(`(${currentQuizIndex}). ${currentQuiz.quiz}`);
@@ -46,9 +52,10 @@ function submitAnswer(answer) {
 }
 
 function endQuiz() {
-    alert('Your score is ' + currentScore + ' / ' + totalQuiz);
+    let percent = Math.floor(currentScore * 100 / totalQuiz);
+    alert(`Your score is ${currentScore} / ${totalQuiz} (${percent}%)`);
     // replay
-    window.location.href = window.location.href;
+    startQuiz();
 }
 
 $(document).ready(() => {
