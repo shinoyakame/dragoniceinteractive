@@ -750,7 +750,7 @@ var characterInfo = [{
 }, {
     id: 147,
     name: 'Mito Fox',
-    imageUrl: './img/ni.png',
+    imageUrl: './img/character/147.png',
     power: 2200000
 }, {
     id: 148,
@@ -760,12 +760,12 @@ var characterInfo = [{
 }, {
     id: 149,
     name: 'Kawhom',
-    imageUrl: './img/ni.png',
+    imageUrl: './img/character/149.png',
     power: 500000
 }, {
     id: 150,
     name: 'Den',
-    imageUrl: './img/ni.png',
+    imageUrl: './img/character/150.png',
     power: 170000
 }, {
     id: 151,
