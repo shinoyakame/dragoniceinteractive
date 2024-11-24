@@ -193,7 +193,7 @@ var characterInfo = [{
     id: 36,
     name: 'Shelter Bull',
     imageUrl: './img/character/036.png',
-    power: 28000
+    power: 33800
 }, {
     id: 37,
     name: 'Veenus Dolphin',
@@ -248,7 +248,7 @@ var characterInfo = [{
     id: 47,
     name: 'Remedy Rabbit',
     imageUrl: './img/character/047.png',
-    power: 22000
+    power: 30000
 }, {
     id: 48,
     name: 'Radow Magpie',
@@ -379,7 +379,7 @@ var characterInfo = [{
     id: 73,
     name: 'Snicker Magpie',
     imageUrl: './img/character/073.png',
-    power: 27000
+    power: 32800
 }, {
     id: 74,
     name: 'Ghost Loris',
@@ -460,7 +460,7 @@ var characterInfo = [{
     id: 89,
     name: 'Crune Panther',
     imageUrl: './img/character/089.png',
-    power: 68000
+    power: 38000
 }, {
     id: 90,
     name: 'Elibom Hawk',
@@ -651,7 +651,7 @@ var characterInfo = [{
     id: 127,
     name: 'Illus Fish',
     imageUrl: './img/character/127.png',
-    power: 38000
+    power: 68000
 }, {
     id: 128,
     name: 'Rose Hawk',
