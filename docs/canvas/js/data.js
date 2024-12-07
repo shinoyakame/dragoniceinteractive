@@ -327,7 +327,7 @@ var characterInfo = [{
     power: 130000
 }, {
     id: 63,
-    name: 'Shiro Sparrow',
+    name: 'Shirou Sparrow',
     imageUrl: './img/character/063.png',
     power: 168200
 }, {
