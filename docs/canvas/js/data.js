@@ -505,12 +505,12 @@ var characterInfo = [{
     id: 98,
     name: 'Spark Dog',
     imageUrl: './img/character/098.png',
-    power: 180000
+    power: 166000
 }, {
     id: 99,
     name: 'Sharp Wolf',
     imageUrl: './img/character/099.png',
-    power: 150000
+    power: 161800
 }, {
     id: 100,
     name: 'Rod Polarbear',
