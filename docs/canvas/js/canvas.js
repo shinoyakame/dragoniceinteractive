@@ -24,7 +24,7 @@ const resize = () => {
     if (hasTitle) {
         ctx.textAlign = "center";
         ctx.font = "bold 16px Arial";
-        ctx.fillText("Animalwars Series x Detective Company", c.width / 2, padding + lineHeight);
+        ctx.fillText("Zocchihedron x Detective Company", c.width / 2, padding + lineHeight);
     }
 
     ctx.textAlign = "left";
