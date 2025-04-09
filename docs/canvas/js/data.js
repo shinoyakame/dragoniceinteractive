@@ -33,7 +33,7 @@ var characterInfo = [{
     id: 4,
     name: 'King Q.Arthur',
     imageUrl: './img/character/004.png',
-    power: 1578500
+    power: 1200000
 }, {
     id: 5,
     name: 'Sakaji Orca (Zakaj)',
@@ -43,7 +43,7 @@ var characterInfo = [{
     id: 6,
     name: 'Neon Ferret',
     imageUrl: './img/character/006.png',
-    power: 244000
+    power: 414000
 }, {
     id: 7,
     name: 'Phoenix',
@@ -646,7 +646,7 @@ var characterInfo = [{
     id: 126,
     name: 'Lucifer Cat',
     imageUrl: './img/ni.png',
-    power: 1200000
+    power: 1578500
 }, {
     id: 127,
     name: 'Illus Fish',
@@ -1020,6 +1020,16 @@ var characterInfo = [{
     name: 'Vein Monkey',
     imageUrl: './img/character/199.png',
     power: 168000
+}, {
+    id: 200,
+    name: 'King Q.Finn',
+    imageUrl: './img/character/200.png',
+    power: 1300000
+}, {
+    id: 201,
+    name: 'King Q.Roderick',
+    imageUrl: './img/character/201.png',
+    power: 640000
 }];
 
 function initCharacterInfo() {
