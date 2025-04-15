@@ -28,6 +28,13 @@ const resize = () => {
     }
 
     ctx.textAlign = "left";
+    ctx.font = "bold 8px Arial";
+    ctx.fillStyle = 'blue';
+    ctx.fillText("Blue = AI", padding, padding + lineHeight);
+
+    ctx.fillStyle = 'red';
+    ctx.fillText("Red = Deprecate", padding + 32 + padding, padding + lineHeight);
+    ctx.font = "bold 16px Arial";
 
     characterNodeList.forEach((node, index) => {
         let row = Math.floor((index) / columnCount);
@@ -76,6 +83,8 @@ const resize = () => {
         
         if (node.deprecated) {
             ctx.fillStyle = 'red';
+        } else if (node.ai) {
+            ctx.fillStyle = 'blue';
         } else {
             ctx.fillStyle = 'black';
         }

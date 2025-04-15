@@ -1,6 +1,7 @@
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const sortBy = urlParams.get('sortBy');
+const filterBy = urlParams.get('filterBy');
 
 class CharacterNode {
     constructor(id, name, imageUrl) {
@@ -319,7 +320,8 @@ var characterInfo = [{
     id: 61,
     name: 'Shining Cheetah',
     imageUrl: './img/character/061.png',
-    power: 171000
+    power: 171000,
+    ai: true
 }, {
     id: 62,
     name: 'Lightning Cheetah',
@@ -333,8 +335,9 @@ var characterInfo = [{
 }, {
     id: 64,
     name: 'Lalami Llama',
-    imageUrl: './img/ni.png',
-    power: 221000
+    imageUrl: './img/character/064.png',
+    power: 221000,
+    ai: true
 }, {
     id: 65,
     name: 'Nume Sparrow',
@@ -363,13 +366,15 @@ var characterInfo = [{
 }, {
     id: 70,
     name: 'Raimond Deer',
-    imageUrl: './img/ni.png',
-    power: 132000
+    imageUrl: './img/character/070.png',
+    power: 132000,
+    ai: true
 }, {
     id: 71,
     name: 'Dr.Plasma Ferret',
-    imageUrl: './img/ni.png',
-    power: 131000
+    imageUrl: './img/character/071.png',
+    power: 131000,
+    ai: true
 }, {
     id: 72,
     name: 'Undead Seal',
@@ -479,8 +484,9 @@ var characterInfo = [{
 }, {
     id: 93,
     name: 'Ponte Griffin',
-    imageUrl: './img/ni.png',
-    power: 92000
+    imageUrl: './img/character/093.png',
+    power: 92000,
+    ai: true
 }, {
     id: 94,
     name: 'Darklord Polarbear',
@@ -534,8 +540,9 @@ var characterInfo = [{
 }, {
     id: 104,
     name: 'Circuit Dog',
-    imageUrl: './img/ni.png',
-    power: 222000
+    imageUrl: './img/character/104.png',
+    power: 222000,
+    ai: true
 }, {
     id: 105,
     name: 'Twink Rabbit',
@@ -584,8 +591,9 @@ var characterInfo = [{
 }, {
     id: 114,
     name: 'Ragnarok Dragon',
-    imageUrl: './img/ni.png',
-    power: 600000
+    imageUrl: './img/character/114.png',
+    power: 600000,
+    ai: true
 }, {
     id: 115,
     name: 'Jewel Hawk',
@@ -604,8 +612,9 @@ var characterInfo = [{
 }, {
     id: 118,
     name: 'Lemon Husky',
-    imageUrl: './img/ni.png',
-    power: 84000
+    imageUrl: './img/character/118.png',
+    power: 84000,
+    ai: true
 }, {
     id: 119,
     name: 'Goldy Seal',
@@ -645,8 +654,9 @@ var characterInfo = [{
 }, {
     id: 126,
     name: 'Lucifer Cat',
-    imageUrl: './img/ni.png',
-    power: 1578500
+    imageUrl: './img/character/126.png',
+    power: 1578500,
+    ai: true
 }, {
     id: 127,
     name: 'Illus Fish',
@@ -720,8 +730,9 @@ var characterInfo = [{
 }, {
     id: 141,
     name: 'Sabor Rabbit',
-    imageUrl: './img/ni.png',
-    power: 151500
+    imageUrl: './img/character/141.png',
+    power: 151500,
+    ai: true
 }, {
     id: 142,
     name: 'Bomber Otter',
@@ -963,13 +974,15 @@ var characterInfo = [{
 }, {
     id: 188,
     name: 'Topaz Beagle',
-    imageUrl: './img/ni.png',
-    power: 161000
+    imageUrl: './img/character/188.png',
+    power: 161000,
+    ai: true
 }, {
     id: 189,
     name: 'Money Redpanda',
-    imageUrl: './img/ni.png',
-    power: 51000
+    imageUrl: './img/character/189.png',
+    power: 51000,
+    ai: true
 }, {
     id: 190,
     name: 'Leaf Dog',
@@ -978,8 +991,9 @@ var characterInfo = [{
 }, {
     id: 191,
     name: 'Quark Shepherd',
-    imageUrl: './img/ni.png',
-    power: 165000
+    imageUrl: './img/character/191.png',
+    power: 165000,
+    ai: true
 }, {
     id: 192,
     name: 'Argus Hawk',
@@ -1034,7 +1048,15 @@ var characterInfo = [{
 
 function initCharacterInfo() {
     characterNodeList = [];
-        
+     
+    if(filterBy != null) {
+        if (filterBy == 'ai') {
+            characterInfo = characterInfo.filter(x => x.ai == true);
+        } else if (filterBy == 'nonai') {
+            characterInfo = characterInfo.filter(x => x.ai != true);
+        }
+    }
+
     if(sortBy != null) {
         if(sortBy == 'power') {
             let loopCount = characterInfo.length;
