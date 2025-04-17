@@ -455,12 +455,14 @@ var characterInfo = [{
     id: 87,
     name: 'Grid Monkey',
     imageUrl: './img/character/087.png',
-    power: 140000
+    power: 140000,
+    ai: true
 }, {
     id: 88,
     name: 'Impact Beetle',
     imageUrl: './img/character/088.png',
-    power: 82000
+    power: 82000,
+    ai: true
 }, {
     id: 89,
     name: 'Crune Panther',
@@ -571,8 +573,9 @@ var characterInfo = [{
 }, {
     id: 110,
     name: 'Behemoth Panther',
-    imageUrl: './img/ni.png',
-    power: 93000
+    imageUrl: './img/character/110.png',
+    power: 93000,
+    ai: true
 }, {
     id: 111,
     name: 'Leviathan K.Whale',
@@ -689,14 +692,16 @@ var characterInfo = [{
     power: 1228000
 }, {
     id: 133,
-    name: 'Ifris',
-    imageUrl: './img/ni.png',
-    power: 260000
+    name: 'Ifrit',
+    imageUrl: './img/character/133.png',
+    power: 260000,
+    ai: true
 }, {
     id: 134,
     name: 'Gemini Spirit',
-    imageUrl: './img/ni.png',
-    power: 280000
+    imageUrl: './img/character/134.png',
+    power: 280000,
+    ai: true
 }, {
     id: 135,
     name: 'Bronze Deer',
@@ -736,28 +741,33 @@ var characterInfo = [{
 }, {
     id: 142,
     name: 'Bomber Otter',
-    imageUrl: './img/ni.png',
-    power: 75000
+    imageUrl: './img/character/142.png',
+    power: 98000,
+    ai: true
 }, {
     id: 143,
     name: 'Zetal Redpanda',
-    imageUrl: './img/ni.png',
-    power: 73000
+    imageUrl: './img/character/143.png',
+    power: 95000,
+    ai: true
 }, {
     id: 144,
-    name: 'Ms.Bandage Squirrel',
-    imageUrl: './img/ni.png',
-    power: 65000
+    name: 'Bandage Squirrel',
+    imageUrl: './img/character/144.png',
+    power: 91000,
+    ai: true
 }, {
     id: 145,
     name: 'DArmor Polarbear',
-    imageUrl: './img/ni.png',
-    power: 64000
+    imageUrl: './img/character/145.png',
+    power: 89000,
+    ai: true
 }, {
     id: 146,
     name: 'Erov Crocodile',
-    imageUrl: './img/ni.png',
-    power: 64500
+    imageUrl: './img/character/146.png',
+    power: 86800,
+    ai: true
 }, {
     id: 147,
     name: 'Mito Fox',
@@ -926,7 +936,8 @@ var characterInfo = [{
     id: 179,
     name: 'Gana Squirrel',
     imageUrl: './img/character/179.png',
-    power: 14000
+    power: 85000,
+    ai: true
 }, {
     id: 180,
     name: 'Livo Squirrel',
