@@ -694,14 +694,12 @@ var characterInfo = [{
     id: 133,
     name: 'Ifrit',
     imageUrl: './img/character/133.png',
-    power: 260000,
-    ai: true
+    power: 260000
 }, {
     id: 134,
-    name: 'Gemini Spirit',
+    name: 'Gem & Mini',
     imageUrl: './img/character/134.png',
-    power: 280000,
-    ai: true
+    power: 280000
 }, {
     id: 135,
     name: 'Bronze Deer',
