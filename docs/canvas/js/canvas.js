@@ -16,7 +16,7 @@ const resize = () => {
     let contentWidth = 100 + padding;
     let contentMax = c.width - (padding * 3) + getScrollbarWidth(); // extra right padding + 1 for scolling bar
     let columnCount = Math.floor(contentMax / contentWidth);
-    let contentHeight = (lineHeight * 3) + contentWidth;
+    let contentHeight = (lineHeight * 2.5) + contentWidth;
     let rowCount = Math.ceil(characterNodeList.length / columnCount);
     
     c.height = yStart + (rowCount * contentHeight);
@@ -24,17 +24,24 @@ const resize = () => {
     if (hasTitle) {
         ctx.textAlign = "center";
         ctx.font = "bold 16px Arial";
-        ctx.fillText("Zocchihedron x Detective Company", c.width / 2, padding + lineHeight);
+        let titleText = "Zocchihedron Characters Index";
+        if (extended == 'true') {
+            titleText = "Zocchihedron x Detective Company";
+        }
+        ctx.fillText(titleText, c.width / 2, padding + lineHeight);
     }
 
     ctx.textAlign = "left";
-    ctx.font = "bold 8px Arial";
-    ctx.fillStyle = 'blue';
-    ctx.fillText("Blue = AI", padding, padding + lineHeight);
 
-    ctx.fillStyle = 'red';
-    ctx.fillText("Red = Deprecate", padding + 32 + padding, padding + lineHeight);
-    ctx.font = "bold 16px Arial";
+    if (filterBy != null) {
+        ctx.font = "bold 8px Arial";
+        ctx.fillStyle = 'blue';
+        ctx.fillText("Blue = AI", padding, padding + lineHeight);
+
+        ctx.fillStyle = 'red';
+        ctx.fillText("Red = Deprecate", padding + 32 + padding, padding + lineHeight);
+        ctx.font = "bold 16px Arial";
+    }
 
     characterNodeList.forEach((node, index) => {
         let row = Math.floor((index) / columnCount);
@@ -61,7 +68,7 @@ const resize = () => {
 
         ctx.fillStyle = 'black';
 
-        if(sortBy == 'power') {
+        if(sortBy == 'power' || show == 'power') {
             ctx.font = "bold 10px Arial";
 
             ctx.textAlign = "left";
