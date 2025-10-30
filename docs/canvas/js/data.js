@@ -155,9 +155,8 @@ var characterInfo = [{
 }, {
     id: ++characterIndex,
     name: 'Shining Cheetah',
-    imageUrl: './img/character/061.png',
-    power: 171000,
-    ai: true
+    imageUrl: './img/character/shining.png',
+    power: 171000
 }, {
     id: ++characterIndex,
     name: 'Chain Dog',
