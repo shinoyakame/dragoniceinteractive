@@ -1,4 +1,5 @@
-// Using global THREE (non-module). Edit these paths to point to your character images.
+// Using ES module imports for Three.js. Edit these paths to point to your character images.
+import * as THREE from 'https://unpkg.com/three@0.160.0/build/three.module.js';
 const images = [
   'img/character/cycle.png',
   'img/character/zero.png',
@@ -18,10 +19,10 @@ const camera = new THREE.PerspectiveCamera(45, 1, 0.1, 100);
 camera.position.set(0, 0, 2.8);
 camera.lookAt(0, 0, 0);
 
-const light = new THREE.DirectionalLight(0xffffff, 0.9);
+const light = new THREE.DirectionalLight(0xffffff, 1.2);
 light.position.set(1, 2, 2);
 scene.add(light);
-scene.add(new THREE.AmbientLight(0xffffff, 0.4));
+scene.add(new THREE.AmbientLight(0xffffff, 0.8));
 
 // Load image directly - works fine when served over HTTP (e.g. GitHub Pages)
 // For local testing: run a local HTTP server (python -m http.server, or npx http-server)
@@ -30,6 +31,7 @@ function loadImageAsTexture(path, onLoad, onError) {
   img.crossOrigin = 'anonymous';
   img.onload = () => {
     const tex = new THREE.Texture(img);
+    tex.colorSpace = THREE.SRGBColorSpace; // Proper color space for image textures
     tex.needsUpdate = true;
     onLoad(tex);
   };
@@ -54,15 +56,15 @@ function makeBox(texture){
   
   // Textured front and back planes
   const planeGeom = new THREE.PlaneGeometry(1.6, 1.6);
-  // Front: single-sided facing +Z
-  const texMatFront = new THREE.MeshStandardMaterial({ map: texture, side: THREE.FrontSide, color: 0xffffff });
+  // Front: single-sided facing +Z (use MeshPhongMaterial for better color fidelity)
+  const texMatFront = new THREE.MeshPhongMaterial({ map: texture, side: THREE.FrontSide, shininess: 0 });
   const front = new THREE.Mesh(planeGeom, texMatFront);
   front.position.z = 0.075; // slightly outside the box thickness (0.14/2 = 0.07)
   front.renderOrder = 2;
   group.add(front);
 
   // Back: single-sided facing -Z (rotate)
-  const texMatBack = new THREE.MeshStandardMaterial({ map: texture, side: THREE.FrontSide, color: 0xffffff });
+  const texMatBack = new THREE.MeshPhongMaterial({ map: texture, side: THREE.FrontSide, shininess: 0 });
   const back = new THREE.Mesh(planeGeom, texMatBack);
   back.position.z = -0.075;
   back.rotation.y = Math.PI;
