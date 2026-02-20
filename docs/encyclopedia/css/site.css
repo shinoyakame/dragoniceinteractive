@@ -23,7 +23,7 @@ body {
 
 .content-scroll {
     font-family: var(--formal-font);
-    background: url('../src/img/back_cover_black.png') no-repeat center;
+    background: url('../img/back_cover_black.png') no-repeat center;
     background-size: cover;
 }
 

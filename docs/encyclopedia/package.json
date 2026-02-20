@@ -9,8 +9,10 @@
   "author": "LighterKitsune",
   "license": "ISC",
   "devDependencies": {
+    "css-loader": "^7.1.4",
     "file-loader": "^6.2.0",
-    "node-sass": "^8.0.0",
+    "mini-css-extract-plugin": "^2.10.0",
+    "sass": "^1.97.3",
     "sass-loader": "^16.0.7",
     "webpack": "^5.105.2",
     "webpack-cli": "^6.0.1"
