@@ -1,0 +1,119 @@
+@charset "UTF-8";
+$imp-max-height: 70vh;
+
+:root {
+    --blue-color: rgb(75, 75, 247);
+    --cartoon-font: "Comic Sans MS", cursive, sans-serif;
+    --formal-font: "Courier New", Courier, monospace;
+    --fantasy-font: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    ;
+    --gradient-gray: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(233, 233, 233, 1) 100%);
+}
+
+html {
+    color: var(--blue-color);
+    font-family: var(--cartoon-font);
+
+    body {
+        margin: 0px;
+    }
+
+    .content-scroll {
+        font-family: var(--formal-font);
+        background: url('../src/img/back_cover_black.png') no-repeat center;
+        background-size: cover;
+
+        .imp {
+            max-width: 100%;
+            max-height: $imp-max-height;
+        }
+
+        .headertext {
+            font-size: 1.4em;
+            text-align: center;
+            font-weight: bold;
+            color: darkgreen;
+            font-family: var(--fantasy-font);
+            white-space: nowrap;
+        }
+    }
+}
+
+@media (max-width: 570px) {
+    .headertext {
+        white-space: initial;
+    }
+}
+
+.loader-wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #242f3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+
+    .loader {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border: 2px solid #Fff;
+        animation: loader 2s infinite ease;
+
+        .loader-inner {
+            vertical-align: top;
+            display: inline-block;
+            width: 100%;
+            background-color: #fff;
+            animation: loader-inner 2s infinite ease-in;
+        }
+    }
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(180deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader-inner {
+    0% {
+        height: 0%;
+    }
+
+    25% {
+        height: 0%;
+    }
+
+    50% {
+        height: 100%;
+    }
+
+    75% {
+        height: 100%;
+    }
+
+    100% {
+        height: 0%;
+    }
+}

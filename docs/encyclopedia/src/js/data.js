@@ -641,14 +641,14 @@ new Vue({
             var member = team.memberList[this.selectedMember];
 
             if (member.hasImage && index != undefined && index < member.imageCount) {
-                var imageUrl = 'img/character/' + story.storyName + '/' + team.teamName + '/' + member.characterName;
+                var imageUrl = 'src/img/character/' + story.storyName + '/' + team.teamName + '/' + member.characterName;
                 if (index > 0) {
                     imageUrl += '_' + index.toString();
                 }
                 var pngPath = imageUrl + '.png';
                 return pngPath;
             } else {
-                return 'img/no_image.png';
+                return 'src/img/no_image.png';
             }
         },
         showImage: function (index) {
@@ -660,7 +660,7 @@ new Vue({
             var member = team.memberList[this.selectedMember];
 
             if (member.hasThumbnail) {
-                var imageUrl = 'img/character/' + story.storyName + '/' + team.teamName + '/' + member.characterName;
+                var imageUrl = 'src/img/character/' + story.storyName + '/' + team.teamName + '/' + member.characterName;
                 var pngPath = imageUrl + '_thumb.png';
                 return pngPath;
             } else {
