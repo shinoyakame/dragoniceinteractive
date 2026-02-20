@@ -1,0 +1,7 @@
+/* Simple layout for the 3D chip demo */
+html,body{height:100%;margin:0;font-family:Arial,Helvetica,sans-serif;background:#f3f6fb}
+#canvas-wrap{height:calc(100% - 48px);display:flex;align-items:center;justify-content:center}
+canvas{width:80vmin;height:80vmin;display:block;background:linear-gradient(180deg,#eef 0%,#dde 100%);box-shadow:0 8px 24px rgba(0,0,0,0.2);border-radius:8px}
+.controls{height:48px;display:flex;align-items:center;justify-content:center;gap:12px}
+.controls button{font-size:18px;padding:6px 12px}
+#label{min-width:40px;text-align:center}
