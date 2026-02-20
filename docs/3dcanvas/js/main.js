@@ -42,43 +42,63 @@ function makeBox(texture){
   // Create a group containing sides and textured faces
   const group = new THREE.Group();
   
-  // Black sides (full box)
-  const sideGeom = new THREE.BoxGeometry(1.6, 1.6, 0.16);
+  // Black sides (full box) — make slightly thinner so front/back planes sit clearly outside
+  const sideGeom = new THREE.BoxGeometry(1.6, 1.6, 0.14);
   const sideMat = new THREE.MeshStandardMaterial({ color: 0x000000 });
+  // push the box faces slightly back in the depth buffer to avoid occluding the planes
+  sideMat.polygonOffset = true;
+  sideMat.polygonOffsetFactor = 1;
+  sideMat.polygonOffsetUnits = 1;
   const sides = new THREE.Mesh(sideGeom, sideMat);
   group.add(sides);
   
   // Textured front and back planes
   const planeGeom = new THREE.PlaneGeometry(1.6, 1.6);
-  const texMat = new THREE.MeshStandardMaterial({ map: texture, side: THREE.DoubleSide });
-  
-  const front = new THREE.Mesh(planeGeom, texMat);
-  front.position.z = 0.085; // Slightly in front
+  // Front: single-sided facing +Z
+  const texMatFront = new THREE.MeshStandardMaterial({ map: texture, side: THREE.FrontSide, color: 0xffffff });
+  const front = new THREE.Mesh(planeGeom, texMatFront);
+  front.position.z = 0.075; // slightly outside the box thickness (0.14/2 = 0.07)
+  front.renderOrder = 2;
   group.add(front);
-  
-  const back = new THREE.Mesh(planeGeom, texMat);
-  back.position.z = -0.085; // Slightly behind (no rotation needed with DoubleSide)
+
+  const front2 = new THREE.Mesh(planeGeom, texMatFront);
+  front2.position.z = 0.075; // slightly outside the box thickness (0.14/2 = 0.07)
+  front2.renderOrder = 2;
+  group.add(front2);
+
+  // Back: single-sided facing -Z (rotate)
+  const texMatBack = new THREE.MeshStandardMaterial({ map: texture, side: THREE.FrontSide, color: 0xffffff });
+  const back = new THREE.Mesh(planeGeom, texMatBack);
+  back.position.z = -0.075;
+  back.rotation.y = Math.PI;
+  back.renderOrder = 2;
   group.add(back);
+
+  const back2 = new THREE.Mesh(planeGeom, texMatBack);
+  back2.position.z = -0.075;
+  back2.rotation.y = Math.PI;
+  back2.renderOrder = 2;
+  group.add(back2);
   
   return group;
 }
 
 function setTextureFromIndex(i){
+  // Dispose old materials/geometries
+  box.children.forEach(child => {
+    if (child.geometry) child.geometry.dispose();
+    if (child.material) {
+      if (Array.isArray(child.material)) {
+        child.material.forEach(m => m.dispose());
+      } else {
+        child.material.dispose();
+      }
+    }
+  });
+  box.clear();
+
   const path = images[i % images.length];
   loadImageAsTexture(path, (tex)=>{
-    // Dispose old materials/geometries
-    box.children.forEach(child => {
-      if (child.geometry) child.geometry.dispose();
-      if (child.material) {
-        if (Array.isArray(child.material)) {
-          child.material.forEach(m => m.dispose());
-        } else {
-          child.material.dispose();
-        }
-      }
-    });
-    box.clear();
-    
     // Create and add new meshes
     const newBox = makeBox(tex);
     newBox.children.forEach(child => box.add(child));
