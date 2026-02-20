@@ -61,11 +61,6 @@ function makeBox(texture){
   front.renderOrder = 2;
   group.add(front);
 
-  const front2 = new THREE.Mesh(planeGeom, texMatFront);
-  front2.position.z = 0.075; // slightly outside the box thickness (0.14/2 = 0.07)
-  front2.renderOrder = 2;
-  group.add(front2);
-
   // Back: single-sided facing -Z (rotate)
   const texMatBack = new THREE.MeshStandardMaterial({ map: texture, side: THREE.FrontSide, color: 0xffffff });
   const back = new THREE.Mesh(planeGeom, texMatBack);
@@ -73,13 +68,6 @@ function makeBox(texture){
   back.rotation.y = Math.PI;
   back.renderOrder = 2;
   group.add(back);
-
-  const back2 = new THREE.Mesh(planeGeom, texMatBack);
-  back2.position.z = -0.075;
-  back2.rotation.y = Math.PI;
-  back2.renderOrder = 2;
-  group.add(back2);
-  
   return group;
 }
 
@@ -101,7 +89,12 @@ function setTextureFromIndex(i){
   loadImageAsTexture(path, (tex)=>{
     // Create and add new meshes
     const newBox = makeBox(tex);
-    newBox.children.forEach(child => box.add(child));
+    // copy children array because reparenting a child removes it from newBox.children
+    const children = newBox.children.slice();
+    children.forEach((child, idx) => {
+      child.frustumCulled = false;
+      box.add(child);
+    });
   }, (path)=>{
     console.warn('Texture failed to load:', path);
   });
