@@ -195,12 +195,12 @@ var characterInfo = [{
 }, {
     id: ++characterIndex,
     name: 'Knuckle Owl',
-    imageUrl: './img/character/010.png',
+    imageUrl: './img/character/knuckle.png',
     power: 85000
 }, {
     id: ++characterIndex,
     name: 'Sky Hawk',
-    imageUrl: './img/character/011.png',
+    imageUrl: './img/character/sky.png',
     power: 162500
 }, {
     id: ++characterIndex,
@@ -324,6 +324,41 @@ var characterInfo = [{
     power: 280000
 }, {
     id: ++characterIndex,
+    name: 'Ion',
+    imageUrl: './img/character/158.png',
+    power: 500000
+}, {
+    id: ++characterIndex,
+    name: 'Leno Wolf',
+    imageUrl: './img/character/159.png',
+    power: 244000
+}, {
+    id: ++characterIndex,
+    name: 'Bigbang Dog',
+    imageUrl: './img/character/161.png',
+    power: 600000
+}, {
+    id: ++characterIndex,
+    name: 'Mil Tiger',
+    imageUrl: './img/ni.png',
+    power: 150500
+}, {
+    id: ++characterIndex,
+    name: 'MarkII Cat',
+    imageUrl: './img/character/174.png',
+    power: 121500
+}, {
+    id: ++characterIndex,
+    name: 'Glacier I.Dragon',
+    imageUrl: './img/character/176.png',
+    power: 67500
+}, {
+    id: ++characterIndex,
+    name: 'Anubis Jackal',
+    imageUrl: './img/character/169.png',
+    power: 167200
+}, {
+    id: ++characterIndex,
     name: 'Clockwork Beaver',
     imageUrl: './img/character/140.png',
     power: 1500000
@@ -359,11 +394,6 @@ var characterInfo = [{
     power: 141500
 }, {
     id: ++characterIndex,
-    name: 'Darklord Polarbear',
-    imageUrl: './img/character/094.png',
-    power: 335000
-}, {
-    id: ++characterIndex,
     name: 'Spark Dog',
     imageUrl: './img/character/098.png',
     power: 166000
@@ -382,6 +412,11 @@ var characterInfo = [{
     name: 'Zephyr Hawk',
     imageUrl: './img/character/101.png',
     power: 51000
+}, {
+    id: ++characterIndex,
+    name: 'Vadore Cat',
+    imageUrl: './img/character/173.png',
+    power: 167100
 }, {
     id: ++characterIndex,
     name: 'Dusk Tortoise (KC)',
@@ -444,26 +479,6 @@ var characterInfo = [{
     power: 250000
 }, {
     id: ++characterIndex,
-    name: 'Ion',
-    imageUrl: './img/character/158.png',
-    power: 500000
-}, {
-    id: ++characterIndex,
-    name: 'Leno Wolf',
-    imageUrl: './img/character/159.png',
-    power: 244000
-}, {
-    id: ++characterIndex,
-    name: 'Bigbang Dog',
-    imageUrl: './img/character/161.png',
-    power: 600000
-}, {
-    id: ++characterIndex,
-    name: 'Mil Tiger',
-    imageUrl: './img/ni.png',
-    power: 150500
-}, {
-    id: ++characterIndex,
     name: 'Lufang Wolf',
     imageUrl: './img/ni.png',
     power: 260000
@@ -472,26 +487,6 @@ var characterInfo = [{
     name: 'Daroque Dog',
     imageUrl: './img/character/165.png',
     power: 410000
-}, {
-    id: ++characterIndex,
-    name: 'Anubis Jackal',
-    imageUrl: './img/character/169.png',
-    power: 167200
-}, {
-    id: ++characterIndex,
-    name: 'Vadore Cat',
-    imageUrl: './img/character/173.png',
-    power: 167100
-}, {
-    id: ++characterIndex,
-    name: 'MarkII Cat',
-    imageUrl: './img/character/174.png',
-    power: 121500
-}, {
-    id: ++characterIndex,
-    name: 'Glacier I.Dragon',
-    imageUrl: './img/character/176.png',
-    power: 67500
 }, {
     id: ++characterIndex,
     name: 'Argus Hawk',
@@ -507,6 +502,11 @@ var characterInfo = [{
     name: 'Arcania Wolf',
     imageUrl: './img/character/194.png',
     power: 300000
+}, {
+    id: ++characterIndex,
+    name: 'Darklord Polarbear',
+    imageUrl: './img/character/094.png',
+    power: 335000
 }, {
     id: ++characterIndex,
     name: 'Calibur Dog',
@@ -1069,6 +1069,8 @@ function initCharacterInfo() {
             characterInfo = characterInfo;
         } else if (filterBy == 'deprecated') {
             characterInfo = deprecatedList;                             // show only deprecated list
+        } else if (filterBy == 'all') {
+            characterInfo = characterInfo.concat(aiList);    // show all list
         }
     } else {
         // let default show non ai
