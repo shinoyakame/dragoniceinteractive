@@ -70,57 +70,57 @@ var characterInfo = [{
 }, {
     id: ++characterIndex,
     name: 'Magma Lion',
-    imageUrl: './img/character/039.png',
+    imageUrl: './img/character/magma.png',
     power: 167000
 }, {
     id: ++characterIndex,
     name: 'Undead Seal',
-    imageUrl: './img/character/072.png',
+    imageUrl: './img/character/undead.png',
     power: 118000
 }, {
     id: ++characterIndex,
     name: 'Champion Rabbit',
-    imageUrl: './img/character/045.png',
+    imageUrl: './img/character/champion.png',
     power: 190000
 }, {
     id: ++characterIndex,
     name: 'Pure Otter',
-    imageUrl: './img/character/120.png',
+    imageUrl: './img/character/pure.png',
     power: 900000
 }, {
     id: ++characterIndex,
     name: 'Chelonia Tortoise',
-    imageUrl: './img/character/015.png',
+    imageUrl: './img/character/chelonia.png',
     power: 620000
 }, {
     id: ++characterIndex,
     name: 'Saito Dog',
-    imageUrl: './img/character/014.png',
+    imageUrl: './img/character/saito.png',
     power: 310000
 }, {
     id: ++characterIndex,
     name: 'Gelix Raccoon',
-    imageUrl: './img/character/117.png',
+    imageUrl: './img/character/gelix.png',
     power: 1800000
 }, {
     id: ++characterIndex,
     name: 'Envy Dragon',
-    imageUrl: './img/character/132.png',
+    imageUrl: './img/character/envy.png',
     power: 1228000
 }, {
     id: ++characterIndex,
     name: 'Shadowman Dog',
-    imageUrl: './img/character/130.png',
+    imageUrl: './img/character/shadowman.png',
     power: 440000
 }, {
     id: ++characterIndex,
     name: 'Luna Chick',
-    imageUrl: './img/character/129.png',
+    imageUrl: './img/character/luna.png',
     power: 415000
 }, {
     id: ++characterIndex,
     name: 'Sloth Goat',
-    imageUrl: './img/character/121.png',
+    imageUrl: './img/character/sloth.png',
     power: 629000
 }, {
     id: ++characterIndex,
