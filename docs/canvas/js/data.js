@@ -532,6 +532,11 @@ var characterInfo = [{
     name: 'Vein Monkey',
     imageUrl: './img/character/199.png',
     power: 168000
+}, {
+    id: ++characterIndex,
+    name: 'Sabor Rabbit',
+    imageUrl: './img/character/141.png',
+    power: 151500
 }];
 var aiList = [{
     id: ++characterIndex,
@@ -598,12 +603,6 @@ var aiList = [{
     name: 'Lucifer Cat',
     imageUrl: './img/character/126.png',
     power: 1578500,
-    ai: true
-}, {
-    id: ++characterIndex,
-    name: 'Sabor Rabbit',
-    imageUrl: './img/character/141.png',
-    power: 151500,
     ai: true
 }, {
     id: ++characterIndex,
