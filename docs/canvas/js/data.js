@@ -340,7 +340,7 @@ var characterInfo = [{
 }, {
     id: ++characterIndex,
     name: 'Mil Tiger',
-    imageUrl: './img/ni.png',
+    imageUrl: './img/character/mil.png',
     power: 150500
 }, {
     id: ++characterIndex,
