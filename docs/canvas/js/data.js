@@ -146,7 +146,7 @@ var characterInfo = [{
     id: ++characterIndex,
     name: 'Elibom Hawk',
     imageUrl: './img/character/090.png',
-    power: 185000
+    power: 285000
 }, {
     id: ++characterIndex,
     name: 'Gaia Bull',
@@ -191,7 +191,7 @@ var characterInfo = [{
     id: ++characterIndex,
     name: 'Frost Polarbear',
     imageUrl: './img/character/009.png',
-    power: 285000
+    power: 185000
 }, {
     id: ++characterIndex,
     name: 'Knuckle Owl',
