@@ -29,7 +29,7 @@ var characterInfo = [{
     power: 620000
 }, {
     id: ++characterIndex,
-    name: 'Lighter Fennec (Tox)',
+    name: 'Lighter Fennec',
     imageUrl: './img/character/lighter.png',
     power: 680000
 }, {
@@ -349,7 +349,7 @@ var characterInfo = [{
     power: 121500
 }, {
     id: ++characterIndex,
-    name: 'Glacier I.Dragon',
+    name: 'Glacier Dragon',
     imageUrl: './img/character/176.png',
     power: 67500
 }, {
@@ -419,24 +419,24 @@ var characterInfo = [{
     power: 167100
 }, {
     id: ++characterIndex,
-    name: 'Dusk Tortoise (KC)',
+    name: 'Dusk Tortoise',
     imageUrl: './img/character/102.png',
     power: 375000
 }, {
     id: ++characterIndex,
-    name: 'Leviathan K.Whale',
-    imageUrl: './img/ni.png',
-    power: 420000
+    name: 'Dr.Plasma Ferret',
+    imageUrl: './img/character/071.png',
+    power: 131000
 }, {
     id: ++characterIndex,
-    name: 'Beelzebub Deer',
-    imageUrl: './img/ni.png',
-    power: 157400
+    name: 'Lalami Llama',
+    imageUrl: './img/character/064.png',
+    power: 221000
 }, {
     id: ++characterIndex,
-    name: 'Father Tortoise (Cl)',
-    imageUrl: './img/character/123.png',
-    power: 625000
+    name: 'Daroque Dog',
+    imageUrl: './img/character/165.png',
+    power: 410000
 }, {
     id: ++characterIndex,
     name: 'Beaker Cat',
@@ -474,19 +474,19 @@ var characterInfo = [{
     power: 170000
 }, {
     id: ++characterIndex,
-    name: 'Noc Ferret',
-    imageUrl: './img/character/151.png',
-    power: 250000
-}, {
-    id: ++characterIndex,
     name: 'Lufang Wolf',
     imageUrl: './img/ni.png',
     power: 260000
 }, {
     id: ++characterIndex,
-    name: 'Daroque Dog',
-    imageUrl: './img/character/165.png',
-    power: 410000
+    name: 'Noc Ferret',
+    imageUrl: './img/character/151.png',
+    power: 250000
+}, {
+    id: ++characterIndex,
+    name: 'Father Tortoise',
+    imageUrl: './img/character/123.png',
+    power: 625000
 }, {
     id: ++characterIndex,
     name: 'Argus Hawk',
@@ -540,21 +540,9 @@ var characterInfo = [{
 }];
 var aiList = [{
     id: ++characterIndex,
-    name: 'Lalami Llama',
-    imageUrl: './img/character/064.png',
-    power: 221000,
-    ai: true
-}, {
-    id: ++characterIndex,
     name: 'Raimond Deer',
     imageUrl: './img/character/070.png',
     power: 132000,
-    ai: true
-}, {
-    id: ++characterIndex,
-    name: 'Dr.Plasma Ferret',
-    imageUrl: './img/character/071.png',
-    power: 131000,
     ai: true
 }, {
     id: ++characterIndex,
@@ -990,6 +978,16 @@ var deprecatedList = [{
     name: 'Midmid Ant',
     imageUrl: './img/character/086.png',
     power: 4800
+}, {
+    id: ++characterIndex,
+    name: 'Leviathan K.Whale',
+    imageUrl: './img/ni.png',
+    power: 420000
+}, {
+    id: ++characterIndex,
+    name: 'Beelzebub Deer',
+    imageUrl: './img/ni.png',
+    power: 157400
 }];
 var extendedInfo = [{
     id: ++characterIndex,
