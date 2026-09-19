@@ -154,7 +154,7 @@ var characterInfo = [{
     power: 175000
 }, {
     id: ++characterIndex,
-    name: 'Shining Cheetah',
+    name: 'Shining Serval',
     imageUrl: './img/character/shining.png',
     power: 171000
 }, {
