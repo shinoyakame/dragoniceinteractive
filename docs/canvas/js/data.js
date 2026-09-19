@@ -21,7 +21,7 @@ var characterInfo = [{
     id: ++characterIndex,
     name: 'Cycle Dog',
     imageUrl: './img/character/cycle.png',
-    power: 650000
+    power: 710000
 }, {
     id: ++characterIndex,
     name: 'Zero Redpanda',
@@ -31,12 +31,12 @@ var characterInfo = [{
     id: ++characterIndex,
     name: 'Lighter Fennec',
     imageUrl: './img/character/lighter.png',
-    power: 680000
+    power: 720000
 }, {
     id: ++characterIndex,
     name: 'King Q.Arthur',
     imageUrl: './img/character/arthur.png',
-    power: 1200000
+    power: 1300000
 }, {
     id: ++characterIndex,
     name: 'Sakaji Orca',
@@ -51,7 +51,7 @@ var characterInfo = [{
     id: ++characterIndex,
     name: 'Mito Fox',
     imageUrl: './img/character/mito.png',
-    power: 2200000
+    power: 1800000
 }, {
     id: ++characterIndex,
     name: 'Ray Tortoise',
@@ -86,37 +86,37 @@ var characterInfo = [{
     id: ++characterIndex,
     name: 'Pure Otter',
     imageUrl: './img/character/pure.png',
-    power: 900000
+    power: 1000000
 }, {
     id: ++characterIndex,
     name: 'Chelonia Tortoise',
     imageUrl: './img/character/chelonia.png',
-    power: 620000
+    power: 630000
 }, {
     id: ++characterIndex,
     name: 'Saito Dog',
     imageUrl: './img/character/saito.png',
-    power: 310000
+    power: 410000
 }, {
     id: ++characterIndex,
     name: 'Gelix Raccoon',
     imageUrl: './img/character/gelix.png',
-    power: 1800000
+    power: 2200000
 }, {
     id: ++characterIndex,
     name: 'Envy Dragon',
     imageUrl: './img/character/envy.png',
-    power: 1228000
+    power: 1500000
 }, {
     id: ++characterIndex,
     name: 'Shadowman Dog',
     imageUrl: './img/character/shadowman.png',
-    power: 440000
+    power: 850000
 }, {
     id: ++characterIndex,
     name: 'Luna Chick',
     imageUrl: './img/character/luna.png',
-    power: 415000
+    power: 690000
 }, {
     id: ++characterIndex,
     name: 'Sloth Goat',
@@ -126,22 +126,22 @@ var characterInfo = [{
     id: ++characterIndex,
     name: 'King Q.Finn',
     imageUrl: './img/character/200.png',
-    power: 1300000
+    power: 800000
 }, {
     id: ++characterIndex,
     name: 'King Q.Roderick',
     imageUrl: './img/character/201.png',
-    power: 640000
+    power: 610000
 }, {
     id: ++characterIndex,
     name: 'King Q.Luther',
     imageUrl: './img/character/157.png',
-    power: 850000
+    power: 640000
 }, {
     id: ++characterIndex,
     name: 'Mother Cat',
     imageUrl: './img/character/122.png',
-    power: 1400000
+    power: 900000
 }, {
     id: ++characterIndex,
     name: 'Elibom Hawk',
@@ -291,12 +291,12 @@ var characterInfo = [{
     id: ++characterIndex,
     name: 'Apollo Rabbit',
     imageUrl: './img/character/059.png',
-    power: 295000
+    power: 555000
 }, {
     id: ++characterIndex,
     name: 'Hades Rabbit',
     imageUrl: './img/character/060.png',
-    power: 400000
+    power: 600000
 }, {
     id: ++characterIndex,
     name: 'Shirou Sparrow',
@@ -326,17 +326,17 @@ var characterInfo = [{
     id: ++characterIndex,
     name: 'Ion',
     imageUrl: './img/character/158.png',
-    power: 500000
+    power: 200000
 }, {
     id: ++characterIndex,
     name: 'Leno Wolf',
     imageUrl: './img/character/159.png',
-    power: 244000
+    power: 700000
 }, {
     id: ++characterIndex,
     name: 'Bigbang Dog',
     imageUrl: './img/character/161.png',
-    power: 600000
+    power: 550000
 }, {
     id: ++characterIndex,
     name: 'Mil Tiger',
@@ -356,12 +356,12 @@ var characterInfo = [{
     id: ++characterIndex,
     name: 'Anubis Jackal',
     imageUrl: './img/character/169.png',
-    power: 167200
+    power: 530000
 }, {
     id: ++characterIndex,
     name: 'Clockwork Beaver',
     imageUrl: './img/character/140.png',
-    power: 1500000
+    power: 1200000
 }, {
     id: ++characterIndex,
     name: 'Dragon Buffalo',
@@ -426,12 +426,12 @@ var characterInfo = [{
     id: ++characterIndex,
     name: 'Dr.Plasma Ferret',
     imageUrl: './img/character/071.png',
-    power: 131000
+    power: 431000
 }, {
     id: ++characterIndex,
     name: 'Lalami Llama',
     imageUrl: './img/character/064.png',
-    power: 221000
+    power: 521000
 }, {
     id: ++characterIndex,
     name: 'Daroque Dog',
@@ -441,7 +441,7 @@ var characterInfo = [{
     id: ++characterIndex,
     name: 'Beaker Cat',
     imageUrl: './img/character/125.png',
-    power: 1000000
+    power: 1100000
 }, {
     id: ++characterIndex,
     name: 'Illus Fish',
@@ -466,7 +466,7 @@ var characterInfo = [{
     id: ++characterIndex,
     name: 'Kawhom',
     imageUrl: './img/character/149.png',
-    power: 500000
+    power: 200000
 }, {
     id: ++characterIndex,
     name: 'Den',
