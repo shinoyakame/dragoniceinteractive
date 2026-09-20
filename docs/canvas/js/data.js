@@ -414,7 +414,7 @@ var characterInfo = [{
     power: 51000
 }, {
     id: ++characterIndex,
-    name: 'Vadore Cat',
+    name: 'Vadore Lynx',
     imageUrl: './img/character/173.png',
     power: 167100
 }, {
@@ -444,7 +444,7 @@ var characterInfo = [{
     power: 1100000
 }, {
     id: ++characterIndex,
-    name: 'Illus Fish',
+    name: 'Illus Shark',
     imageUrl: './img/character/127.png',
     power: 68000
 }, {
